@@ -1,0 +1,1042 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<component type="desktop-application">
+  <id>org.openstreetmap.josm</id>
+  <metadata_license>CC-BY-SA-3.0</metadata_license>
+  <project_license>GPL-2.0+</project_license>
+  <developer id="org.openstreetmap.josm">
+    <name>JOSM developers</name>
+  </developer>
+  <name>JOSM</name>
+  <summary>Java OpenStreetMap Editor</summary>
+  <description>
+    <p>
+    JOSM is an extensible off-line editor for ​OpenStreetMap (OSM) written in ​Java.
+    </p>
+    <p>
+    It supports loading stand-alone GPX tracks and GPX track data from the OSM database as well as loading and
+    editing existing nodes, ways, metadata tags and relations from the OSM database.
+    </p>
+  </description>
+  <categories>
+    <category>Education</category>
+    <category>Geoscience</category>
+    <category>Maps</category>
+  </categories>
+  <content_rating type="oars-1.1" />
+  <launchable type="desktop-id">org.openstreetmap.josm.desktop</launchable>
+  <screenshots>
+    <screenshot type="default">
+      <image type="source" width="1024" height="576">https://josm.openstreetmap.de/svn/trunk/native/linux/josm-screenshot.png</image>
+      <caption>JOSM with data and background layer loaded</caption>
+    </screenshot>
+  </screenshots>
+  <url type="bugtracker">https://josm.openstreetmap.de/query?report=12</url>
+  <url type="homepage">https://josm.openstreetmap.de</url>
+  <url type="contact">https://lists.openstreetmap.org/pipermail/josm-dev/</url>
+  <url type="help">https://josm.openstreetmap.de/wiki/Help</url>
+  <url type="translate">https://josm.openstreetmap.de/wiki/Translations</url>
+  <url type="vcs-browser">https://josm.openstreetmap.de/browser</url>
+  <url type="contribute">https://josm.openstreetmap.de/#Contribute</url>
+  <releases>
+    <release version="19613" date="2026-08-12">
+      <description />
+    </release>
+    <release version="19555" date="2026-03-29">
+      <description />
+    </release>
+    <release version="19481" date="2026-02-01">
+      <description />
+    </release>
+    <release version="19439" date="2025-09-02">
+      <description />
+    </release>
+    <release version="19423" date="2025-07-12">
+      <description />
+    </release>
+    <release version="19412" date="2025-06-03">
+      <description />
+    </release>
+    <release version="19396" date="2025-05-02">
+      <description>
+        <ul>
+          <li>Added language Faroese</li>
+          <li xml:lang="be">Дададзена фарэрская мова</li>
+          <li xml:lang="ca">S'ha afegit l'idioma feroès</li>
+          <li xml:lang="cs">Přidán faerský jazyk</li>
+          <li xml:lang="da">Tilføjede sproget færøsk</li>
+          <li xml:lang="de">Die Sprache Färöisch ergänzt</li>
+          <li xml:lang="el">Προστέθηκε η Φεροϊκή γλώσσα</li>
+          <li xml:lang="eo">Aldonis la lingvon feroan</li>
+          <li xml:lang="es">Se añadió el idioma feroés</li>
+          <li xml:lang="fi">Lisätty fäärin kieli</li>
+          <li xml:lang="fo">Bætti við tungumálinum føroyskt</li>
+          <li xml:lang="fr">Ajout de la langue féroïenne</li>
+          <li xml:lang="hu">A feröeri nyelv hozzá lett adva</li>
+          <li xml:lang="id">Bahasa Faroe ditambahkan</li>
+          <li xml:lang="is">Bætti við tungumálinu færeysku</li>
+          <li xml:lang="it">Aggiunta la lingua Faroense</li>
+          <li xml:lang="ja">フェロー語が追加されました</li>
+          <li xml:lang="ko">페로어 추가</li>
+          <li xml:lang="lv">Pievienota Fēru valoda</li>
+          <li xml:lang="nb">Færøysk lagt til</li>
+          <li xml:lang="nl">Taal Faeröers toegevoegd</li>
+          <li xml:lang="nn">La til språket færøysk</li>
+          <li xml:lang="pt">Adição do idioma feroês</li>
+          <li xml:lang="pt_BR">Adição do idioma feroês</li>
+          <li xml:lang="ru">Добавлен фарерский язык</li>
+          <li xml:lang="sk">Pridaný faerský jazyk</li>
+          <li xml:lang="sr@latin">Dodat je farski jezik</li>
+          <li xml:lang="sv">Lade till språket färöiska</li>
+          <li xml:lang="uk">Додано фарерську мову</li>
+          <li xml:lang="zh_CN">新增法罗语言</li>
+          <li xml:lang="zh_TW">新增法羅語言</li>
+          <li>Improved photo mapping</li>
+          <li xml:lang="be">Палепшана адлюстраванне фатаграфій</li>
+          <li xml:lang="ca">S'ha millorat el mapeig amb fotos</li>
+          <li xml:lang="cs">Vylepšené mapování z fotografií</li>
+          <li xml:lang="da">Forbedret fotokortlægning</li>
+          <li xml:lang="de">Das Kartieren mittels Fotos verbessert</li>
+          <li xml:lang="el">Βελτιωμένη φωτογραφική χαρτογράφηση</li>
+          <li xml:lang="eo">Plibonigita foto-mapado</li>
+          <li xml:lang="es">Se mejoró el mapeo desde fotos</li>
+          <li xml:lang="fi">Parannettu valokuvakartoitusta</li>
+          <li xml:lang="fo">Bætt myndakortlegging</li>
+          <li xml:lang="fr">Amélioration de la cartographie photo</li>
+          <li xml:lang="hu">Továbbfejlesztett fénykép-megfeleltetés</li>
+          <li xml:lang="id">Pemetaan foto dimutakhirkan</li>
+          <li xml:lang="is">Bætt ljósmyndakortlagning</li>
+          <li xml:lang="it">Migliorata la mappatura con le foto</li>
+          <li xml:lang="ja">写真マッピングを改善しました</li>
+          <li xml:lang="ko">사진 매핑(photo mapping, 현장에서 찍은 사진을 바탕으로 지도를 편집하는 기법) 개선</li>
+          <li xml:lang="lv">Uzlabota foto kartēšana</li>
+          <li xml:lang="nb">Forbedret kartlegging med foto</li>
+          <li xml:lang="nl">Verbeterd in kaart brengen foto's</li>
+          <li xml:lang="nn">Forbetra fotokartlegging</li>
+          <li xml:lang="pt">Melhorias no mapeamento com fotos</li>
+          <li xml:lang="pt_BR">Melhorias no mapeamento com fotos</li>
+          <li xml:lang="ru">Улучшено отображение фотографий</li>
+          <li xml:lang="sk">Vylepšené mapovanie podľa fotografií</li>
+          <li xml:lang="sr@latin">Poboljšano je kartiranje prilikom upotrebe fotografija</li>
+          <li xml:lang="sv">Förbättrad fotokartläggning</li>
+          <li xml:lang="uk">Покращено мапінг фотографій</li>
+          <li xml:lang="zh_CN">改进照片画地图</li>
+          <li xml:lang="zh_TW">改進照片畫地圖</li>
+        </ul>
+      </description>
+    </release>
+    <release version="19369" date="2025-03-30">
+      <description>
+        <ul>
+          <li>Languages Greek and Danish now completely translated. Esperanto has been added. Only minor progress for other incomplete languages.</li>
+          <li xml:lang="be">Мовы грэцкая і дацкая зараз цалкам перакладзены. Дададзена эсперанта. Нязначны прагрэс для іншых няпоўных моў.</li>
+          <li xml:lang="ca">Els idiomes grec i danès ja estan completament traduïts. S'ha afegit l'esperanto. S'ha realitzat un progrès menor per a altres idiomes incomplets.</li>
+          <li xml:lang="cs">Překlad do řečtiny a dánštiny zcela dokončen. Přidáno esperanto. V ostatních nedokončených jazycích jen drobný pokrok.</li>
+          <li xml:lang="da">Sprog græsk og dansk nu fuldstændigt oversat. Esperanto er tilføjet. Kun mindre fremskridt for andre ufuldstændige sprog.</li>
+          <li xml:lang="de">Die Sprachen Griechisch und Dänisch sind jetzt vollständig übersetzt. Esperanto wurde hinzugefügt. Bei den anderen unvollständigen Sprachen gibt es nur geringe Fortschritte.</li>
+          <li xml:lang="el">Οι γλώσσες Ελληνικά και Δανικά είναι τώρα πλήρως μεταφρασμένες. Προστέθηκε η Εσπεράντο. Μόνο μικρή πρόοδος για τις υπόλοιπες.</li>
+          <li xml:lang="eo">Lingvoj greka kaj dana nun tute tradukitaj. Esperanto estis aldonita. Nur eta progreso por aliaj nekompletaj lingvoj.</li>
+          <li xml:lang="es">Los idiomas griego y danés ya están completamente traducidos. Se ha añadido el esperanto. Sólo un progreso menor en otros idiomas incompletos.</li>
+          <li xml:lang="fi">Kreikan ja tanskan kieliversiot on nyt käännetty kokonaan. Esperanto on lisätty. Muissa keskeneräisissä kielissä on tapahtunut vain vähäistä edistystä.</li>
+          <li xml:lang="fo">Málini grikskt og danskt eru nú fullkomið týdd. Esperanto er bætt við. Bert smáa framgongd hjá øðrum ófullkomnum málum.</li>
+          <li xml:lang="fr">Les langues grecque et danoise sont désormais entièrement traduites. L'espéranto a été ajouté. Seuls des progrès mineurs ont été réalisés pour les autres langues incomplètes.</li>
+          <li xml:lang="hu">A görög és dán nyelv most már teljesen le vannak fordítva. Az eszperantó hozzá lett adva. A többi befejezetlen nyelv esetében csak kisebb előrelépés történt.</li>
+          <li xml:lang="id">Bahasa Yunani dan Denmark sudah tuntas terjemahannya. Bahasa Esperanto ditambahkan. Bahasa-bahasa lain masih mandek perkembangannya.</li>
+          <li xml:lang="is">Tungumálin gríska og dönsku eru nú að fullu þýdd. Esperanto hefur verið bætt við. Aðeins lítil framvinda með önnur ókláruð tungumál.</li>
+          <li xml:lang="it">Le lingue greco e danese sono adesso completamente tradotte. È stato aggiunto l'esperanto. Solo progressi minori per le altre lingue incomplete.</li>
+          <li xml:lang="ja">ギリシャ語とデンマーク語が完全に翻訳されました。エスペラント語が追加されました。ほかの未完訳の言語については、僅かな進捗のみです。</li>
+          <li xml:lang="ko">그리스어와 덴마크어가 100% 번역되었으며, 에스페란토가 추가되었습니다. 완전히 번역되지 않은 나머지 언어들은 진전이 거의 없습니다.</li>
+          <li xml:lang="lv">Grieķu un Dāņu valodas tagad ir pilnībā iztulkotas. Ir pievienota esperanto valoda. Citām nepabeigtajām valodām ir tikai neliels progress.</li>
+          <li xml:lang="nb">Språk gresk og dansk er nå fullstendig oversatt. Esperanto er lagt til. Bare mindre fremgang for andre ufullstendige språk.</li>
+          <li xml:lang="nl">Talen Grieks en Deens nu volledig vertaald. Esperanto is toegevoegd. Slechts weinig voortgang in andere niet volledige talen.</li>
+          <li xml:lang="nn">Språka gresk og dansk er no fullstendig omsette. Esperanto er lagt til. Berre mindre framgang for andre ufullstendige språk.</li>
+          <li xml:lang="pt">As línguas grega e dinamarquesa estão agora completamente traduzidas. Foi acrescentado o esperanto. Apenas pequenos progressos noutras línguas incompletas.</li>
+          <li xml:lang="pt_BR">Os idiomas dinamarquês e grego agora estão completamente traduzidos. O esperanto foi adicionado. Apenas pequenos progressos para outros idiomas incompletos.</li>
+          <li xml:lang="ru">Языки греческий и датский теперь полностью переведены. Добавлен эсперанто. Незначительный прогресс для других неполных языков.</li>
+          <li xml:lang="sk">Gréčtina a dánčina bola kompletne preložená. Bolo pridané esperanto. V ostatných nekompletných jazykoch nastal len malý pokrok.</li>
+          <li xml:lang="sr@latin">Grčki i danski prevodi su u potpunosti završeni. Dodat je Esperanto. Za ostale nepotpune jezike primećen je tek omanji napredak.</li>
+          <li xml:lang="sv">Språk grekiska och danska nu helt översatta. Esperanto har lagts till. Endast mindre framsteg för andra ofullständiga språk.</li>
+          <li xml:lang="uk">Завершено переклад грецькою та данською мовами. Додано есперанто. Для інших мов лише незначний прогрес.</li>
+          <li xml:lang="zh_CN">希腊文与丹麦文已经完成翻译，已经新增世界文，而其他未完成翻译版本则只有缓慢的进展。</li>
+          <li xml:lang="zh_TW">希臘文與丹麥文已經完成翻譯，已經新增世界文，而其他未完成翻譯版本則只有緩慢的進展。</li>
+        </ul>
+      </description>
+    </release>
+    <release version="19342" date="2025-02-28">
+      <description>
+        <ul>
+          <li>New language variant Canadian English added and Australian English and Norwegian completed. Some progress for other languages.</li>
+          <li xml:lang="be">Дададзены новы моўны варыянт — канадская англійская, скончаны аўстралійская англійская і нарвежская. Дасягнуты некаторы прагрэс у іншых мовах.</li>
+          <li xml:lang="ca">S'ha afegit una nova variant lingüística, l'anglès canadenc, i s'ha completat l'anglès australià i el noruec. Alguns progressos per a altres idiomes.</li>
+          <li xml:lang="cs">Přidána nová varianta jazyka kanadská angličtina a dokončeny jazyky australská angličtina a norština. Určitý pokrok v dalších jazycích.</li>
+          <li xml:lang="da">Ny sprogvariant canadisk engelsk tilføjet og australsk engelsk og norsk gennemført. Nogle fremskridt for andre sprog.</li>
+          <li xml:lang="de">Die neue Sprachvariante kanadisches Englisch hinzugefügt und Australisch und Norwegisch vervollständigt. Geringere Fortschritte bei anderen Sprachen.</li>
+          <li xml:lang="el">Προστέθηκε νέα παραλλαγή της γλώσσας Καναδικά Αγγλικά και ολοκληρώθηκαν τα Αυστραλιανά, Αγγλικά και Νορβηγικά. Κάποια πρόοδος για άλλες γλώσσες.</li>
+          <li xml:lang="eo">Nova lingvovariaĵo Kanada angla aldonita kaj aŭstralia angla kaj norvega finkonstruitaj. Iom da progreso por aliaj lingvoj.</li>
+          <li xml:lang="es">Se ha añadido una nueva variante lingüística, el inglés canadiense, y se han completado el inglés australiano y el noruego. Algunos avances en otros idiomas.</li>
+          <li xml:lang="fi">Kanadan englanti on lisätty uutena kielivarianttina, ja Australian englannin sekä norjan käännökset on saatu valmiiksi. Muissa kielissä on tapahtunut jonkin verran edistystä.</li>
+          <li xml:lang="fo">Nýtt málføri kanadisk enskt bætt við og avstralskt enskt og norskt fullført. Nøkur framgongd hjá øðrum málum.</li>
+          <li xml:lang="fr">Ajout d'une nouvelle variante linguistique, l'anglais canadien, et achèvement de l'anglais australien et du norvégien. Quelques progrès pour les autres langues.</li>
+          <li xml:lang="hu">Új nyelvváltozat, a kanadai angol hozzáadva, és elkészült az ausztrál angol és norvég nyelv. Némi előrelépés más nyelveknél.</li>
+          <li xml:lang="id">Bahasa Inggris varian Kanada dan Australia ditambahkan. Bahasa Norwegia tuntas terjemahannya. Bahasa-bahasa lain ada kemajuan.</li>
+          <li xml:lang="is">Nýtt mállýskuvariant bætt við: kanadísk enska, og áströlsk enska og norska lokið. Nokkur framvinda fyrir önnur tungumál.</li>
+          <li xml:lang="it">Aggiunta di una nuova variante linguistica, l’inglese canadese e completamento dell’inglese australiano e del norvegese. Qualche progresso nelle altre lingue.</li>
+          <li xml:lang="ja">新たな言語としてカナダ英語を追加し、オーストラリア英語とノルウェー語は完訳しました。ほかの言語も進展があります。</li>
+          <li xml:lang="ko">캐나다 영어, 호주식 영어, 노르웨이어가 완전히 번역되었습니다. 나머지 언어도 어느 정도 진전이 있습니다.</li>
+          <li xml:lang="lv">Pievienots jauns valodas variants — Kanādas angļu valoda, kā arī pabeigta Austrālijas angļu un Norvēģu valoda. Citas valodas nedaudz papildinātas.</li>
+          <li xml:lang="nb">Ny språkvariant kanadisk engelsk lagt til og australsk engelsk og norsk fullført. Noe fremgang for andre språk.</li>
+          <li xml:lang="nl">Nieuwe taalvariant Canadees Engels toegevoegd en Australisch Engels en Noors voltooid. Enige vooruitgang voor andere talen.</li>
+          <li xml:lang="nn">Ny språkvariant kanadisk engelsk lagt til, og australsk engelsk og norsk er fullførte. Nokre framsteg for andre språk.</li>
+          <li xml:lang="pt">Foi acrescentada uma nova variante linguística, o inglês canadiano, além da conclusão do inglês australiano e o norueguês. Alguns progressos noutras línguas.</li>
+          <li xml:lang="pt_BR">Nova variante de idioma adicionada (inglês canadense), além da conclusão de inglês australiano e norueguês. Houve também algum progresso para outros idiomas.</li>
+          <li xml:lang="ru">Добавлен новый языковой вариант — канадский английский, завершены австралийский английский и норвежский. Достигнут некоторый прогресс в других языках.</li>
+          <li xml:lang="sk">Pridaný jazyk kanadská angličtina a dokončená bola austrálska angličtina a nórština. Ďalšie jazyky pokročili s prekladom.</li>
+          <li xml:lang="sr@latin">Dodata je kanadska varijanta engleskog jezika. Australijski engleski i norveški prevodi su u potpunosti završeni. Određeni napredak za ostale jezike.</li>
+          <li xml:lang="sv">Ny språkvariant kanadensisk engelska tillagd och australiensisk engelska och norska klar. Vissa framsteg för andra språk.</li>
+          <li xml:lang="uk">Додано новий варіант канадської англійської та завершено роботу над австралійською англійською та норвезькою мовами. Деякий прогрес для інших мов.</li>
+          <li xml:lang="zh_CN">新的语言变体新增加拿大英文，而澳洲英文与挪威文已经完成。</li>
+          <li xml:lang="zh_TW">新的語言變體新增加拿大英文，而澳洲英文與挪威文已經完成。</li>
+        </ul>
+      </description>
+    </release>
+    <release version="19307" date="2025-02-04">
+      <description>
+        <ul>
+          <li>Languages Italian, French, Arabic, Brazilian Portuguese and Swedish are now (again) fully translated.</li>
+          <li xml:lang="be">Мовы італьянская, французская, арабская, бразільская партугальская і шведская зараз (ізноў) цалкам перакладзены.</li>
+          <li xml:lang="ca">Els idiomes italià, francès, àrab, portuguès brasiler i suec ara estan (de nou) completament traduïts.</li>
+          <li xml:lang="cs">Jazyky italština, francouzština, arabština, brazilská portugalština a švédština jsou nyní (opět) zcela přeloženy.</li>
+          <li xml:lang="cy">Mae'r ieithoedd Eidalaidd, Ffrangeg, Arabeg, Portiwgaleg Brasilaidd a Swedeg bellach wedi cael eu cyfieithu'n llawn (eto).</li>
+          <li xml:lang="da">Sprogene italiensk, fransk, arabisk, brasiliansk portugisisk og svensk er nu (igen) fuldt oversat.</li>
+          <li xml:lang="de">Die Sprachen Italienisch, Französisch, Arabisch, Brasilianisches Portugiesisch und Schwedisch sind jetzt (wieder) vollständig übersetzt.</li>
+          <li xml:lang="el">Οι γλώσσες Ιταλικά, Γαλλικά, Αραβικά, Πορτογαλικά Βραζιλίας και Σουηδικά είναι πλέον (και πάλι) πλήρως μεταφρασμένες.</li>
+          <li xml:lang="eo">Lingvoj itala, franca, araba, brazila portugala kaj sveda nun estas (denove) plene tradukitaj.</li>
+          <li xml:lang="es">Los idiomas italiano, francés, árabe, portugués brasileño y sueco están ahora (de nuevo) totalmente traducidos.</li>
+          <li xml:lang="fi">Italia, ranska, arabia, brasilianportugali ja ruotsi on nyt (jälleen) täysin käännetty.</li>
+          <li xml:lang="fo">Málini italskt, franskt, arabiskt, brasilskt portugisiskt og svenskt eru nú (aftur) fullkomið týdd.</li>
+          <li xml:lang="fr">Les langues italienne, française, arabe, Portugais brésilien et suédoise sont désormais (à nouveau) entièrement traduites.</li>
+          <li xml:lang="hu">Az olasz, francia, arab, brazil portugál és svéd nyelv már (ismét) teljes mértékben le van fordítva.</li>
+          <li xml:lang="id">Bahasa Italia, Prancis, Arab, Portugal Brasil, dan Swedia sudah tuntas terjemahannya.</li>
+          <li xml:lang="is">Tungumálin ítalska, franska, arabíska, brasilísk portúgalska og sænska eru nú (aftur) að fullu þýdd.</li>
+          <li xml:lang="it">Le lingue italiano, francese, arabo, portoghese brasiliano e svedese sono (di nuovo) completamente tradotte.</li>
+          <li xml:lang="ja">イタリア語, フランス語, アラビア語, ブラジル系ポルトガル語, スウェーデン語が (再び) 完全に翻訳されました。</li>
+          <li xml:lang="ko">이탈리아어, 프랑스어, 아랍어, 브라질 포르투갈어, 스웨덴어가 (다시) 완전히 번역되었습니다.</li>
+          <li xml:lang="lv">Itāļu, Franču, Arābu, Brazīlijas, Portugāļu un Zviedru valodas tagad (atkal) ir pilnībā iztulkotas.</li>
+          <li xml:lang="nb">Språkene italiensk, fransk, arabisk, brasiliansk portugisisk og svensk er nå (igjen) fullt oversatt.</li>
+          <li xml:lang="nl">De talen Italiaans, Frans, Arabisch, Braziliaans-Portugees en Zweeds zijn nu (opnieuw) volledig vertaald.</li>
+          <li xml:lang="nn">Språka italiensk, fransk, arabisk, brasiliansk portugisisk og svensk er no (att) fullstendig omsette.</li>
+          <li xml:lang="pt">Os idiomas árabe, francês, italiano, português do Brasil e sueco agora estão (novamente) totalmente traduzidos.</li>
+          <li xml:lang="pt_BR">Os idiomas árabe, francês, italiano, português do Brasil e sueco agora estão (novamente) totalmente traduzidos.</li>
+          <li xml:lang="ru">Языки итальянский, французский, арабский, бразильский португальский и шведский теперь (снова) полностью переведены.</li>
+          <li xml:lang="sk">Jazyky taliančina, francúzština, arabčina, brazílska portugalčina a švédčina sú znovu kompletne preložené.</li>
+          <li xml:lang="sr@latin">Italijanski, francuski, arapski, brazilski portugalski i švedski prevodi su (ponovo) u potpunosti završeni.</li>
+          <li xml:lang="sv">Språken italienska, franska, arabiska, brasiliansk portugisiska och svenska är nu (igen) fullt översatta.</li>
+          <li xml:lang="uk">Італійська, французька, арабська, бразильська португальська та шведська мови тепер (знову) повністю перекладені.</li>
+          <li xml:lang="zh_CN">意大利文、法文、阿拉伯文、巴西葡萄牙文与瑞典文如今完全(再次)翻译完成。</li>
+          <li xml:lang="zh_TW">義大利文、法文、阿拉伯文、巴西葡萄牙文與瑞典文如今完全(再次)翻譯完成。</li>
+        </ul>
+      </description>
+    </release>
+    <release version="19277" date="2025-01-04">
+      <description>
+        <ul>
+          <li>Added new language Welsh and readded Turkish</li>
+          <li xml:lang="be">Дададзена новая мова — валійская — і зноў дададзена турэцкая</li>
+          <li xml:lang="ca">S'ha afegit un nou idioma gal·lès i s'ha tornat a afegir el turc</li>
+          <li xml:lang="cs">Přidán nový jazyk velština a znovupřidána turečtina</li>
+          <li xml:lang="cy">Wedi ychwanegu'r Gymraeg ac ail-ychwanegu Twrceg</li>
+          <li xml:lang="da">Tilføjet nyt sprog walisisk og tilføjet tyrkisk igen</li>
+          <li xml:lang="de">Neue Sprache Walisisch hinzugefügt und Türkisch wieder aktiviert</li>
+          <li xml:lang="el">Προστέθηκε νέα γλώσσα Ουαλικά και προστέθηκαν εκ νέου τα Τουρκικά</li>
+          <li xml:lang="eo">Aldonis novan lingvon la kimran kaj legis la turkan</li>
+          <li xml:lang="es">Se ha añadido el galés y se ha vuelto a añadir el turco.</li>
+          <li xml:lang="fi">Lisätty uusi kieli, kymri, ja turkin kieli on lisätty uudelleen.</li>
+          <li xml:lang="fo">Nýtt mál walskt bætt við og turkiskt afturført.</li>
+          <li xml:lang="fr">Ajout d'une nouvelle langue, le gallois, et rajout du turc</li>
+          <li xml:lang="hu">A walesi nyelv újonnan, a török nyelv pedig újból hozzáadva</li>
+          <li xml:lang="id">Bahasa Wales ditambahkan. Bahasa Turki ditambahkan kembali.</li>
+          <li xml:lang="is">Bætt við nýju tungumálinu velska og endurvakti tyrknesku</li>
+          <li xml:lang="it">Aggiunte due nuove lingue: gallese e turco riadattato</li>
+          <li xml:lang="ja">新たにウェールズ語を追加し、トルコ語を再追加しました</li>
+          <li xml:lang="ko">웨일스어 추가, 튀르키예어 재추가</li>
+          <li xml:lang="lv">Pievienota jaunā Velsiešu valoda un atkal pievienota Turku valoda.</li>
+          <li xml:lang="nb">La til nytt språk walisisk og la tyrkisk til igjen</li>
+          <li xml:lang="nl">Nieuwe taal Welsh toegevoegd en Turks opnieuw toegevoegd</li>
+          <li xml:lang="nn">La til nytt språk walisisk og la til tyrkisk på nytt</li>
+          <li xml:lang="pl">Dodano język walijski oraz ponownie dodano język turecki.</li>
+          <li xml:lang="pt">Adição de novo idioma Galês e reinclusão de Turco</li>
+          <li xml:lang="pt_BR">Adição de um novo idioma, Galês, e readição de Turco</li>
+          <li xml:lang="ru">Добавлен новый язык — валлийский — и снова добавлен турецкий</li>
+          <li xml:lang="sk">Pridaný nový jazyk welština a znovu obnovená turečtina</li>
+          <li xml:lang="sr@latin">Dodat je velški jezik. Turski jezik je vraćen.</li>
+          <li xml:lang="sv">Lade till nytt språk walesiska och lade till turkiska igen</li>
+          <li xml:lang="uk">Додано нову мову – валійську, знов додано турецьку</li>
+          <li xml:lang="zh_CN">新增语言威尔斯文以及重新加入土耳其文</li>
+          <li xml:lang="zh_TW">新增語言威爾斯文以及重新加入土耳其文</li>
+        </ul>
+      </description>
+    </release>
+    <release version="19265" date="2024-12-03">
+      <description />
+    </release>
+    <release version="19253" date="2024-10-31">
+      <description />
+    </release>
+    <release version="19230" date="2024-10-02">
+      <description />
+    </release>
+    <release version="19207" date="2024-08-29">
+      <description>
+        <ul>
+          <li>Fix #11487: Have josm render data to tiles (**experimental, Expert mode only**). See r19176 for details.</li>
+          <li xml:lang="be">Выпраўленне #11487: прымусіць josm рэндэрыць дадзеныя ў плітцы (**эксперыментальна, толькі у Экспертным рэжыме**). Падрабязнасці гл. у r19176.</li>
+          <li xml:lang="da">Korrektion #11487: Få JOSM til at gengive data til fliser (**eksprimentelt, kun i Expert mode**). Se r19176 for detaljer.</li>
+          <li xml:lang="de">Korrektur von #11487: Zeichnen der Daten als Kacheln (**experimentell, nur im Expertenmodus**). Siehe r19176 für Details.</li>
+          <li xml:lang="el">Διόρθωση #11487: Να αποδίδει το JOSM τα δεδομένα σε πλακίδια (**πειραματική, λειτουργία Ειδικού μόνο**). Δείτε r19176 για λεπτομέρειες.</li>
+          <li xml:lang="eo">Korekto #11487: Havu josm-regu datumojn al kaheloj (**eksperimenta, Expert-reĝimo nur**). Vidu r19176 por detaloj.</li>
+          <li xml:lang="es">Corrección #11487: Hacer que josm renderice datos en mosaicos (**experimental, solo en modo experto). Ver r19176 para más detalles.</li>
+          <li xml:lang="fr">Correctif #11487 : Fait en sorte que josm rende les données par tuile (**expérimental, uniquement en Mode Avancé**). Voir r19176 pour plus de détails.</li>
+          <li xml:lang="hu">Fix #11487: JOSM adatok megjelenítése csempénként (**kísérleti, csak Szakértő módban**). Részletekért lásd r19176.</li>
+          <li xml:lang="it">Fix #11487: adesso josm mostra i dati suddivisi in mattonelle (**sperimentale, solo in Modalità per esperti**). Vedi r19176 per ulteriori dettagli.</li>
+          <li xml:lang="ja">Fix #11487: josmにデータをタイルとしてレンダリングさせる (**実験的, 上級者モードのみ**). 詳細は r19176 をご覧ください。</li>
+          <li xml:lang="ko">#11487 수정: 데이터를 타일 형태로 렌더링하는 기능 추가(**실험적 기능, 전문가 모드에서만 사용 가능**). 거대한 데이터 집합을 JOSM으로 보고자 할 때 유용합니다. 자세한 설명은 r19176 을 참고하세요.</li>
+          <li xml:lang="nb">Korreksjon #11487: Få JOSM til å gjengi data til fliser (**eksprimentelt, kun i Expert mode**). Se r19176 for detaljer.</li>
+          <li xml:lang="nl">Fix #11487: JOSM gegevens naar tegels laten renderen (**experimenteel, alleen modus Expert**). Bekijk r19176 voor details.</li>
+          <li xml:lang="pl">Naprawiono #11487: renderowanie danych do kafli (**eksperymentalne, tylko w trybie eksperta**). Zobacz szczegóły: r19176.</li>
+          <li xml:lang="pt">Correção #11487: Faz com que o JOSM renderize dados em mosaicos (**experimental, somente no Modo especialista**). Veja r19176 para detalhes.</li>
+          <li xml:lang="pt_BR">Correção #11487: Faz com que o JOSM renderize dados em mosaicos (**experimental, somente no Modo especialista**). Veja r19176 para detalhes.</li>
+          <li xml:lang="ru">Исправление #11487: заставить josm рендерить данные в плитки (**экспериментально, только в Экспертном режиме**). Подробности см. в r19176.</li>
+          <li xml:lang="sk">Oprava #11487: JOSM môže vykresľovať údaje do dlaždíc (**experimentálne, len v režime pre expertov**). Pozri r19176 pre detaily.</li>
+          <li xml:lang="sv">Korrektion #11487: Få JOSM till att återgå data till fliser (**exprimentelt, kun i Expert mode**). Se r19176 för detaljer.</li>
+          <li xml:lang="uk">Виправлення #11487: Дозволяє josm зображати дані у тайлах (**експериментально, лише в Експертному режимі**). Докладні відомості наведено у r19176.</li>
+          <li xml:lang="zh_CN">修正 #11487：让 JOSM 依据资料算绘图砖 (**实验性，只有专家模式**)。详情见 r19176。</li>
+          <li xml:lang="zh_TW">修正 #11487：讓 JOSM 依據資料算繪圖磚 (**實驗性，只有專家模式**)。詳情見 r19176。</li>
+        </ul>
+      </description>
+    </release>
+    <release version="19160" date="2024-07-31">
+      <description />
+    </release>
+    <release version="19128" date="2024-07-03">
+      <description />
+    </release>
+    <release version="19096" date="2024-06-04">
+      <description />
+    </release>
+    <release version="19067" date="2024-05-02" />
+    <release version="19039" date="2024-04-10">
+      <description>
+        <ul>
+          <li>Fix #21533: Native Apple Silicon support (macOS installation files are "universal binaries")</li>
+          <li xml:lang="ar">الإصلاح #21533: دعم Apple Silicon الأصلي (ملفات تثبيت macOS هي "ثنائيات عالمية")</li>
+          <li xml:lang="de">Korrektur von #21533: Unterstützung der neuen Apple-Architektur (die MacOS-Installationsdateien sind jetzt "universelle Binärdateien")</li>
+          <li xml:lang="el">Διόρθωση #21533: Υποστήριξη εγγενούς λειτουργίας σε Apple Silicon (τα αρχεία εγκατάστασης για macOS είναι "καθολικά δυαδικά")</li>
+          <li xml:lang="eo">Riparo #21533: Subteno por denaska Apple Silicon (macOS-instalaj dosieroj estas "universalaj duumoj")</li>
+          <li xml:lang="es">Corrección #21533: Compatibilidad nativa con Apple Silicon (los archivos de instalación de macOS son "binarios universales")</li>
+          <li xml:lang="fr">Correctif #21533 : Prise en charge de Apple Silicon Native (les fichiers d'installation de macOS sont des "binaires universels")</li>
+          <li xml:lang="hu">#21533 javítása: Natív Apple Silicon támogatás (a macOS telepítő fájl "univerzális bináris" lett)</li>
+          <li xml:lang="it">Fix #21533: Supporto nativo ad Apple Silicon (i file di installazione macOS sono "universal binaries")</li>
+          <li xml:lang="ja">Fix #21533: Apple Siliconをネイティブサポート (macOS版のインストールファイルは「ユニバーサルバイナリー」です)</li>
+          <li xml:lang="ko">#21533 수정: 애플 실리콘을 정식으로(native) 지원(macOS 설치 파일은 '범용 이진 파일(Universal Binary)'입니다)</li>
+          <li xml:lang="nb">Fiks #21533: Støtte for native Apple Silicon (macOS-installasjonsfiler er "universelle binærfiler").</li>
+          <li xml:lang="nl">Fix #21533: Eigen ondersteuning voor Apple Silicon (macOS installatiebestanden zijn "universal binaries")</li>
+          <li xml:lang="pt">Correção #21533: Suporte nativo ao Apple Silicon (os ficheiros de instalação do macOS são "binários universais")</li>
+          <li xml:lang="pt_BR">Correção #21533: Suporte nativo ao Apple Silicon (os arquivos de instalação do macOS são "binários universais")</li>
+          <li xml:lang="sk">Fix #21533: Natívna podpora pre procesory Apple Silicon (inštalačné súbory pre macOS sú "universal binaries")</li>
+          <li xml:lang="uk">Виправлення #21533: «Рідна» підтримка процесорів Apple Silicon (пакунки для macOS тепер є «універсальними бінарними файлами»)</li>
+          <li xml:lang="zh_CN">修复 #21533：原生苹果芯片支持（macOS安装文件为“通用二进制文件”）</li>
+          <li xml:lang="zh_TW">修正 #21533：原生蘋果晶片支援 (macOS 安裝檔為「通用二進位」)</li>
+        </ul>
+      </description>
+    </release>
+    <release version="19017" date="2024-03-13">
+      <description>
+        <ul>
+          <li>OpenStreetMap is deprecating Basic Authentication and OAuth 1.0a. JOSM has removed OAuth 1.0a support in early 2024, and Basic Authentication should be avoided wherever possible. We recommend that all new users use OAuth 2.0 and existing users switch to it. See #22810 and the OpenStreetMap Operations ticket #867 for further details.</li>
+          <li xml:lang="ar">يلغي OpenStreetMap المصادقة الأساسية وOAuth 1.0a. لقد ألغت JOSM دعم OAuth 1.0a في أوائل عام 2024، ويجب تجنب "المصادقة الأساسية" حيثما أمكن. نوصي جميع المستخدمين الجدد باستخدام OAuth 2.0 والمستخدمين الحاليين switch إليه. انظر #22810# وتذكرة عمليات OpenStreetMap #867 لمزيد من التفاصيل.</li>
+          <li xml:lang="de">OpenStreetMap wird die Nutzung der Passwortanmeldung und OAuth 1.0a abschaffen. JOSM hat die Unterstützung für OAuth 1.0a Anfang 2024 beendet und die Anmeldung mit Passwort sollte in Zukunft vermieden werden. Es wird allen neuen Nutzern empfohlen, OAuth 2.0 zu nutzen, und existierenden Nutzern wird der Umstieg nahegelegt. Siehe #22810 und das Ticket bei OpenStreetMap Operations #867 für nähere Details.</li>
+          <li xml:lang="el">Το OpenStreetMap καταργεί την Βασική Πιστοποίηση και το OAuth 1.0a. Το JOSM έχει αφαιρέσει την OAuth 1.0a υποστήριξη από τις αρχές του 2024, και η Βασική Πιστοποίηση θα πρέπει να αποφεύγεται όπου είναι δυνατόν. Συνιστούμε όλοι οι νέοι χρήστες να χρησιμοποιούν το OAuth 2.0 και οι υπάρχοντες χρήστες να μεταβούν σε αυτό. Δείτε το #22810 και το αίτημα της ομάδας λειτουργιών του OpenStreetMap #867 για περισσότερες λεπτομέρειες.</li>
+          <li xml:lang="eo">OpenStreetMap malaktualigas Basic Authentication kaj OAuth 1.0a. JOSM forigis subtenon por OAuth 1.0a en early 2024, kaj Basic Authentication devus esti evitata kie ajn eblas. Ni rekomendas, ke ĉiuj novaj uzantoj uzu OAuth 2.0 kaj ekzistantaj uzantoj ŝanĝu al ĝi. Vidu #22810 kaj la bileton de OpenStreetMap Operations #867 por pliaj detaloj.</li>
+          <li xml:lang="es">OpenStreetMap deja de utilizar Autenticación Básica y OAuth 1.0a. JOSM ha eliminado la compatibilidad con OAuth 1.0a a principios de 2024, y la "autenticación básica" deben evitarse en la medida de lo posible. Recomendamos que todos los nuevos usuarios utilicen OAuth 2.0 y que los usuarios existentes cambien a éste. Ver #22810 y el ticket #867 de OpenStreetMap Operations para más detalles.</li>
+          <li xml:lang="fr">OpenStreetMap déconseille l'Identification Simple et OAuth 1.0a. JOSM a supprimé le support de OAuth 1.0a début 2024, et l'Identification Simple devrait être évitée dans la mesure du possible. Nous recommandons que tous les nouveaux utilisateurs utilisent OAuth 2.0 et que les utilisateurs existants l'adoptent. Voir #22810 et le ticket des Operations OpenStreetMap #867 pour plus de détails.</li>
+          <li xml:lang="hu">Az OpenStreetMap kivezeti az Egyszerű hitelesítést és az OAuth 1.0a-t. A JOSM az OAuth 1.0a támogatását 2024 elején eltávolította, de az Egyszerű hitelesítés is lehetőleg kerülendő. Az új felhasználóknak a javasoljuk az OAuth 2.0 használatát, a meglévőknek pedig a váltást rá. További információkért lásd a #22810 hibajegyet és az OpenStreetMap Üzemeltetés #867 hibajegyét.</li>
+          <li xml:lang="it">OpenStreetMap sta rendendo obsoleta l’Autenticazione di base e OAuth 1.0a. JOSM ha rimosso il supporto a OAuth 1.0a a inizio 2024 e l’Autenticazione di base se possibile andrebbe evitata. Consigliamo a tutti i nuovi utenti di usare OAuth 2.0 e a quelli già esistenti di passare a quella. Per ulteriori informazioni, vedere #22810 e il ticket su OpenStreetMap Operations #867.</li>
+          <li xml:lang="ja">OpenStreetMapは、Basic 認証とOAuth 1.0aを廃止しようとしています。JOSMは2024年初頭にOAuth 1.0aのサポートを削除しましたし、Basic認証は可能な限り避けるべきです。全ての新規ユーザーはOAuth 2.0を使用し、既存のユーザーはそれに切り替えることを推奨します。詳細は、#22810およびOpenStreetMap Operationsチケット #867 を参照してください。</li>
+          <li xml:lang="ko">곧 오픈스트리트맵에서 기본 인증(Basic Authentication)과 OAuth 1.0a 인증을 폐기합니다. 이에 따라 JOSM에서도 2024년 초에 OAuth 1.0a 지원을 중단하였습니다. 기본 인증 또한 가능하면 사용하지 말아 주세요. 이제 신규 사용자 및 기존 사용자 모두 OAuth 2.0 인증을 사용할 것을 권장합니다. 자세한 정보는 #22810 및 오픈스트리트맵 운영 깃허브의 867번째 이슈를 참고하세요.</li>
+          <li xml:lang="nb">OpenStreetMap faser ut Basic Authentication og OAuth 1.0a. JOSM har fjernet støtte for OAuth 1.0a i early 2024, og Basic Authentication bør unngås der det er mulig. Vi anbefaler at alle nye brukere bruker OAuth 2.0 og at eksisterende brukere bytter til det. Se #22810 og OpenStreetMap Operations-saken #867 for flere detaljer.</li>
+          <li xml:lang="nl">OpenStreetMap faseert Basic Authentication en OAuth 1.0a uit. JOSM heeft ondersteuning voor OAuth 1.0a verwijderd in begin 2024, en Basic Authentication zou waar mogelijk moeten worden vermeden. We raden aan dat alle nieuwe gebruikers OAuth 2.0 gebruiken en dat bestaande gebruikers daarnaar overschakelen. Bekijk #22810 en het ticket van OpenStreetMap Operations #867 voor meer details.</li>
+          <li xml:lang="pt">O OpenStreetMap está a descontinuar a Autenticação Básica e OAuth 1.0a. O JOSM removeu o suporte ao OAuth 1.0a no início de 2024 e a "Autenticação Básica" deve ser evitada na medida do possível. Recomendamos que todos os novos utilizadores façam uso de OAuth 2.0 e que os utilizadores existentes façam essa migração. Consulte #22810 e o ticket #867 de OpenStreetMap Operations para maiores detalhes.</li>
+          <li xml:lang="pt_BR">O OpenStreetMap está descontinuando a Autenticação Básica e OAuth 1.0a. O JOSM removeu o suporte ao OAuth 1.0a no início de 2024 e a "Autenticação Básica" deve ser evitada na medida do possível. Recomendamos que todos os novos usuários façam uso de OAuth 2.0 e que os usuários existentes façam essa migração. Consulte #22810 e o ticket #867 de OpenStreetMap Operations para maiores detalhes.</li>
+          <li xml:lang="ru">OpenStreetMap объявила устаревшими аутентификацию Basic Authentication и OAuth 1.0a. JOSM удалит поддержку OAuth 1.0a в начале 2024, и может скрыть или убрать поддержку аутентификации Basic Authentication в это же время. Мы рекомендуем всем новым пользователям использовать аутентификацию OAuth 2.0, а существующим пользователям переключиться на неё. Подробнее смотрите в #22810 и карточке OpenStreetMap Operations #867.</li>
+          <li xml:lang="sk">OpenStreetMap označuje Základnú autentifikáciu a OAuth 1.0a ako zastaralé. JOSM odstránil podporu OAuth 1.0a na začiatku 2024 a Základná autentifikácia by už nemala byť používaná. Odporúčame všetkým novým používateľom používať OAuth 2.0 a existujúci používatelia by mali na ňu prepnúť. Pozri #22810 a hlásenie OpenStreetMap Operations #867 pre viac podrobností.</li>
+          <li xml:lang="uk">OpenStreetMap відмовляється від Basic Authentication та OAuth 1.0a. JOSM вилучив підтримку OAuth 1.0a у «24.02» на початку 2024 року, а Basic Authentication слід уникати, всюди де це можливо. Ми рекомендуємо всім новим користувачам починати з OAuth 2.0, а наявним користувачам перемкнутися на цю версію. Дивіться #22810 та квиток OpenStreetMap Operations #867 щоб дізнатися деталі.</li>
+          <li xml:lang="zh_CN">OpenStreetMap 正在弃用基本身份验证和OAuth 1.0a。 JOSM 将在 2024年初 删除OAuth 1.0a支持，并尽可能不使用基本身份验证支持。我们建议所有新用户使用OAuth 2.0并建议现有用户向它切换。有关更多详细信息，请参阅#22810 和 OpenStreetMap Operations 工单 #867。</li>
+          <li xml:lang="zh_TW">開放街圖將棄用基本驗證和OAuth 1.0a。 JOSM 將在 2024年初 刪除OAuth 1.0a支援，並盡可能不使用基本身份驗證支援。我們建議所有新用戶使用OAuth 2.0並建議現有用戶切換過去。有關更多詳細資訊，請參閱#22810 和 OpenStreetMap Operations 工單 #867。</li>
+          <li>JOSM will no longer finish startup with Java 8. Please upgrade to Java 11 or later.</li>
+          <li xml:lang="ar">لن ينتهي تشغيل JOSM بعد الآن مع Java 8. يرجى الترقية إلى Java 11 أو أحدث.</li>
+          <li xml:lang="de">JOSM startet nicht länger mit Java 8. Bitte auf Java 11 oder neuer aktualisieren.</li>
+          <li xml:lang="el">Το JOSM δεν θα μπορεί πλέον να ξεκινήσει με Java 8. Κάντε αναβάθμιση σε Java 11 ή νεότερη έκδοση.</li>
+          <li xml:lang="eo">JOSM ne plu finos startadon kun Java 8. Bonvolu ĝisdatigi al Java 11 aŭ posta versio.</li>
+          <li xml:lang="es">JOSM ya no finaliza el inicio con Java 8. Actualice a Java 11 o posterior.</li>
+          <li xml:lang="fr">JOSM ne termine plus le démarrage avec Java 8. Veuillez passer à Java 11 ou à une version plus récente.</li>
+          <li xml:lang="hu">A JOSM többé nem indul el a Java 8-as verziójával. Frissíts Java 11 vagy újabb verzióra.</li>
+          <li xml:lang="it">JOSM non terminerà più l’avvio con Java 8. Aggiornare a Java 11 o versioni successive.</li>
+          <li xml:lang="ja">JOSMはJava 8では起動を完了しなくなりました。Java 11以降にアップグレードしてください。</li>
+          <li xml:lang="ko">이제 Java 8로 JOSM을 실행할 수 없습니다. Java 11 이상으로 업그레이드해 주세요.</li>
+          <li xml:lang="nb">JOSM vil ikke lenger fullføre oppstarten med Java 8. Vennligst oppgrader til Java 11 eller en nyere versjon.</li>
+          <li xml:lang="nl">JOSM zal niet langer het opstarten voltooien met Java 8. Upgrade naar Java 11 of later.</li>
+          <li xml:lang="pt">O JOSM não terminará mais a inicialização com Java 8. Atualize para Java 11 ou posterior.</li>
+          <li xml:lang="pt_BR">O JOSM não terminará mais a inicialização com Java 8. Atualize para Java 11 ou posterior.</li>
+          <li xml:lang="ru">JOSM больше не будет запускаться на Java версии 8. Пожалуйста, обновите до Java 11 или выше.</li>
+          <li xml:lang="sk">JOSM už nie je možné spustiť na Java 8. Prosím upgradujte na Java 11 alebo novšiu.</li>
+          <li xml:lang="uk">JOSM більше не запускатиметься на Java 8-ї версії. Будь ласка, оновіть Java до 11-ї, або до ще новішої версії.</li>
+          <li xml:lang="zh_CN">JOSM 之后不会支持以 Java 8 启动，请更新至 Java 11 或之后版本。</li>
+          <li xml:lang="zh_TW">JOSM 之後不會支援以 Java 8 啟動，請更新至 Java 11 或之後版本。</li>
+          <li>Count any missing tag on any object as tag conflict when merging nodes, combining ways and replacing geometry (#23305). See #23555 for further upcoming enhancements.</li>
+          <li xml:lang="ar">احتساب أي علامة مفقودة على أي كائن على أنها تعارض العلامات عند دمج العقد، ودمج الطرق، واستبدال الهندسة (#23305). انظر #23555 لمزيد من التحسينات القادمة.</li>
+          <li xml:lang="de">Alle fehlenden Merkmale an einem Objekt zählen als Konflikt wenn Punkte oder Linien vereinigt, oder Geometrien ersetzt werden (#23305). Siehe #23555 für Informationen über weitere Verbesserungen.</li>
+          <li xml:lang="el">Να θεωρείται οποιαδήποτε ετικέτα που λείπει από οποιοδήποτε αντικείμενο ως σύγκρουση ετικετών κατά τη συγχώνευση κόμβων, τον συνδυασμό γραμμών και την αντικατάσταση γεωμετρίας (#23305). Δείτε το #23555 για επερχόμενες βελτιώσεις.</li>
+          <li xml:lang="eo">Kalkuli ĉian mankantan etikedon sur ajna objekto kiel etiketa konflikto dum kunfandado de nodoj, kombinado de vojoj kaj anstataŭigo de geometrio (#23305). Vidu #23555 por venontaj plibonigoj.</li>
+          <li xml:lang="es">Contabilizar cualquier etiqueta que falte en cualquier objeto como conflicto de etiquetas al unir nodos, combinar vías y reemplazar geometría (#23305). Ver #23555 para conocer más mejoras futuras.</li>
+          <li xml:lang="fr">Considère tout attribut manquant sur un objet comme un conflit d'attributs lors de la fusion des nœuds, de la combinaison des chemins et du remplacement de la géométrie (#23305). Voir #23555 pour d'autres améliorations à venir.</li>
+          <li xml:lang="hu">Bármely objektum bármely hiányzó címkéjét címkeütközésnek tekinti pontok vagy vonalak egyesítésekor, és geometria cseréjekor (#23305). A további közelgő fejlesztésekért lásd: #23555.</li>
+          <li xml:lang="it">Considera ogni tag mancante su un oggetto come un conflitto di etichetta quando si uniscono nodi, combinano percorsi e sostituiscono geometrie (#23305). Consulta #23555 per ulteriori miglioramenti in arrivo.</li>
+          <li xml:lang="ja">ノードのマージ, ウェイの結合, ジオメトリーの置換を行うと、オブジェクト上の欠落しているタグをタグの競合としてカウントします (#23305)。 今後のさらなる機能強化については #23555 を参照してください。</li>
+          <li xml:lang="ko">이제 마디 병합, 길 결합, 다각형 교체 시 한쪽 개체에만 존재하는 태그가 있으면 태그 충돌로 간주합니다 (#23305). 추후 반영될 개선 사항은 #23555 티켓을 참고하세요.</li>
+          <li xml:lang="nb">Regne enhver manglende tagg på ethvert objekt som taggkonflikt når du slår sammen noder, kombinerer veier og erstatter geometri (#23305). Se #23555 for kommende forbedringer.</li>
+          <li xml:lang="nl">Tel elke ontbrekende tag voor elk object als tagconflict bij het samenvoegen van knopen, combineren van wegen en vervangen van geometrie (#23305). Bekijk #23555 voor meer komende verbeteringen.</li>
+          <li xml:lang="pt">Considera qualquer etiqueta ausente em qualquer objeto como um conflito de etiqueta ao mesclar nós, combinar formas e substituir geometria (#23305). Consulte #23555 para futuras melhorias.</li>
+          <li xml:lang="pt_BR">Considere qualquer etiqueta ausente em qualquer objeto como um conflito de etiqueta ao mesclar nós, combinar formas e substituir geometria (#23305). Consulte #23555 para futuras melhorias.</li>
+          <li xml:lang="ru">Учитывает любой отсутствующий тег на любом объекте как конфликт тегов во время объединения точек, объединения линий и изменения геометрии (#23305). Следите за #23555, чтобы быть в курсе дальнейших исправлений.</li>
+          <li xml:lang="sk">Pri zlučovaní bodov, ciest a nahradzovaní geometrie sú chýbajúce značky na objekte považované za konflikt značiek (#23305). Pozrite #23555 pre budúce vylepšenia.</li>
+          <li xml:lang="uk">Враховує будь-який відсутній теґ на будь-якому обʼєкті як конфлікт під час обʼєднання точок, комбінування ліній та заміні геометрії (#23305). Стежте за виправленням #23555 щоб бачити подальші покращення.</li>
+          <li xml:lang="zh_CN">当合并节点、路径与替代形状时，通过标签冲突工具来计算任何物件任何遗漏的标签 (#23305)。 参见 #23555 了解更多之后的改进措施。</li>
+          <li xml:lang="zh_TW">當合併節點、路徑與取代形狀時，透過標籤衝突工具來計算任何物件任何遺漏的標籤 (#23305)。 參見 #23555 瞭解更多之後的改進措施。</li>
+        </ul>
+      </description>
+    </release>
+    <release version="18969" date="2024-02-06" />
+    <release version="18940" date="2024-01-17">
+      <description>
+        <ul>
+          <li>Use the appropriate Bing layer -- notably, there may be some quality differences, and the imagery may be newer or older than what would be seen on the previously used Bing imagery layer. There should no longer be a difference as compared to Bing imagery from Rapid or iD.</li>
+          <li xml:lang="ar">استخدم طبقة Bing المناسبة - تجدر الإشارة إلى أنه قد تكون هناك بعض الاختلافات في الجودة، وقد تكون الصور أحدث أو أقدم مما يمكن رؤيته على طبقة صور Bing المستخدمة سابقًا. يجب ألا يكون هناك اختلاف مقارنة بصور Bing من Rapid أو iD.</li>
+          <li xml:lang="de">Nutzung der korrekten Bing-Karte -- es kann Qualitätsunterschiede geben oder das Bilddatum kann sich gegenüber den vorheriger Daten unterschieden. Es sollte jedoch keine Unterschiede mehr zu Bing von Rapid oder iD geben.</li>
+          <li xml:lang="el">Χρησιμοποιήστε το κατάλληλο στρώμα Bing — σημειώνεται ότι μπορεί να υπάρχουν διαφορές στην ποιότητα και οι εικόνες ενδέχεται να είναι νεότερες ή παλαιότερες σε σχέση με αυτές που εμφανίζονταν στο προηγούμενο στρώμα εικόνων Bing. Πλέον δεν θα πρέπει να υπάρχει διαφορά σε σύγκριση με τις εικόνες Bing από το Rapid ή το iD.</li>
+          <li xml:lang="eo">Uzu la taŭgan Bing-tavolon -- notinde, povas esti iuj kvalitaj diferencoj, kaj la bildaro povas esti pli nova aŭ pli malnova ol tio, kio estus videbla en la antaŭe uzata Bing-bildara tavolo. Ne plu devus esti diferenco kompare al Bing-bildaro de Rapid aŭ iD.</li>
+          <li xml:lang="es">Utilice la capa de Bing adecuada -- en particular, puede haber algunas diferencias de calidad, y las imágenes pueden ser más nuevas o más antiguas de lo que se vería en la capa de imágenes de Bing utilizada anteriormente. Ya no debería haber diferencias respecto a las imágenes Bing de Rapid o iD.</li>
+          <li xml:lang="fr">Utilisation du calque Bing approprié -- il peut y avoir, notamment des différences de qualité, et l'imagerie peut être plus récente ou plus ancienne que ce que l'on verrait sur le calque d'imagerie Bing précédemment utilisé. Il ne devrait plus y avoir de différence par rapport à l'imagerie Bing de Rapid ou de iD.</li>
+          <li xml:lang="hu">A megfelelő Bing réteg használata. Előfordulhat pár minőségbeli eltérés, valamint a műholdkép a korábban láthatóhoz képest újabb vagy régebbi is lehet. Többé nem lesz eltérés a Rapid és iD szerkesztőkben látott Bing műholdképhez képest.</li>
+          <li xml:lang="it">Uso del livello Bing appropriato (in tal senso potrebbero esserci delle differenze di qualità e le immagini potrebbero risultare più datate o più recenti rispetto a quelle mostrate in precedenza dal livello di immagini Bing). Non ci dovrebbero essere più differenze rispetto alle immagini Bing visibili su Rapid e iD.</li>
+          <li xml:lang="ja">適切なBingレイヤーを使用するようになりました -- 注意点としては、画質に多少の違いがあり、画像は以前に使用していたBing画像レイヤーよりも新しい、あるいは、古いものが表示されるかもしれません。RapidやiDで表示されるBing画像と比較して違いはないはずです。</li>
+          <li xml:lang="ko">적절한 Bing 레이어를 사용하도록 업데이트 -- 기존에 사용하던 Bing 항공 사진 레이어와 현재 레이어를 비교했을 때 품질 차이가 있을 수 있으며, 일부 지역에서는 더 최근에 촬영한 모습이나 더 오래 전에 촬영한 모습을 볼 수 있습니다. 이번 업데이트로 JOSM에서도 Rapid 및 iD 편집기에서 사용하는 Bing 항공 사진과 동일한 이미지를 볼 수 있습니다.</li>
+          <li xml:lang="nb">Bruk det riktige Bing-laget -- merk at det kan være noen kvalitetsforskjeller, og bilder kan være nyere eller eldre enn det som ville vært sett i det tidligere brukte Bing-bildelaget. Det bør ikke lenger være noen forskjell sammenlignet med Bing-bilder fra Rapid eller iD.</li>
+          <li xml:lang="nl">Gebruik de toepasselijke laag van Bing -- onthoud dat er enkele verschillen kunnen zijn in kwaliteit, en de afbeeldingen zouden nieuwer of ouder kunnen zijn dan wat er te zien is op de eerder gebruikte afbeeldingslaag van Bing. Er zou niet langer een verschil moeten zijn in vergelijking met de afbeeldingen van Bing voor Rapid of iD.</li>
+          <li xml:lang="pt">Use a camada apropriada do Bing - notavelmente, podem haver algumas diferenças de qualidade e as imagens podem ser mais recentes ou mais antigas do que o que seria visto na camada de imagens do Bing usada anteriormente. Não deve mais haver diferença em comparação com as imagens do Bing do Rapid ou iD.</li>
+          <li xml:lang="pt_BR">Use a camada apropriada do Bing - notavelmente, podem haver algumas diferenças de qualidade e as imagens podem ser mais recentes ou mais antigas do que o que seria visto na camada de imagens do Bing usada anteriormente. Não deve mais haver diferença em comparação com as imagens do Bing do Rapid ou iD.</li>
+          <li xml:lang="ru">Используется соответствующий слой Bing, в частности, могут быть некоторые различия в качестве изображений. Кроме того, изображения могут быть старше или новее, чем использовались ранее. Более не должно быть разницы по сравнению со слоями Bing из редакторов Rapid и iD.</li>
+          <li xml:lang="sk">Použitie správnej vrstvy Bing -- môžu existovať rozdiely v kvalite a snímky môžu byť novšie alebo staršie oproti predchádzajúcej vrstve Bing. Už by nemal byť rozdiel oproti snímkam Bing z Rapid alebo iD.</li>
+          <li xml:lang="uk">Використовується відповідний шар Bing — зокрема, можуть бути деякі відмінності в якості, і зображення можуть бути новішими або старішими, ніж ті, які можна було б побачити на шарі зображень Bing, що використовувався раніше. Різниці у порівнянні із зображеннями Bing у редакторах Rapid або iD більше бути не повинно.</li>
+          <li xml:lang="zh_CN">使用正确的必应图层 - 请注意，图像可能比之前使用的必应图像图层中的图像会有一些质量差异，时间也可能更新或更旧。与Rapid或iD上的必应影像相比将不再存在差异。</li>
+          <li xml:lang="zh_TW">使用正確的 Bing 圖層 - 請注意，圖像可能比之前使用的 BIng 圖像圖層中的圖像會有一些品質差異，時間上也可能更新或更舊。與Rapid或iD上的 Bing 影像相比將不再存在差異。</li>
+        </ul>
+      </description>
+    </release>
+    <release version="18907" date="2023-12-07" />
+    <release version="18906" date="2023-12-05" />
+    <release version="18905" date="2023-12-05">
+      <description>
+        <ul>
+          <li>JOSM software (Java archive, Windows and MacOS release) will no longer be signed. The code signing rules changed and are no longer acceptable for JOSM team. When using systems relying on signing in future warning requests will appear again.</li>
+          <li xml:lang="ar">لن يتم توقيع برنامج JOSM (أرشيف جافا وإصدار ويندوز وماك أو إس) بعد الآن. لقد تغيرت قواعد توقيع البرمجيات ولم تعد مقبولة لدى فريق JOSM. عند استخدام الأنظمة القائمة على التوقيع في المستقبل، ستظهر طلبات التحذير مرة أخرى.</li>
+          <li xml:lang="de">Die JOSM-Software (Java-Archiv, Windows- und MacOs-Programme) wird nicht mehr signiert. Die Regeln für das Signieren von Programmen haben sich geändert und sind für das JOSM-Programmierteam nicht mehr akzeptabel. Wenn Systeme genutzt werden, welche die Signaturen erwarten, dann werden wieder Warndialoge erscheinen.</li>
+          <li xml:lang="el">Το λογισμικό JOSM (αρχεία Java, εκδόσεις για Windows και MacOS) δεν θα υπογράφεται πλέον. Οι κανόνες για την υπογραφή κώδικα άλλαξαν και δεν είναι πλέον αποδεκτοί από την ομάδα του JOSM. Όταν χρησιμοποιούνται συστήματα που βασίζονται στην υπογραφή, θα εμφανίζονται ξανά προειδοποιητικά μηνύματα στο μέλλον.</li>
+          <li xml:lang="eo">JOSM-programaro (Java-arkivo, Windows- kaj MacOS-eldonoj) ne plu estos subskribita. La reguloj pri subskribado de kodo ŝanĝiĝis kaj ne plu estas akcepteblaj por la JOSM-teamo. Kiam oni uzos sistemojn, kiuj dependas de subskribado, estontaj avertoj aperos denove.</li>
+          <li xml:lang="es">El software JOSM (archivo Java, versión Windows y MacOS) ya no se firmará. Las normas de firma de código han cambiado y ya no son aceptables para el equipo de JOSM. Cuando se utilicen sistemas que dependen de la firma en el futuro las solicitudes de advertencia aparecerá de nuevo.</li>
+          <li xml:lang="fr">Le logiciel JOSM (archive Java, version Windows et MacOS) ne sera plus signé. Les règles de signature du code ont changé et ne sont plus acceptables pour l'équipe JOSM. Lors de l'utilisation de systèmes reposant sur la signature, des demandes d'avertissement apparaîtront à nouveau à l'avenir.</li>
+          <li xml:lang="hu">A JOSM szoftver (Java csomag, Windows és MacOS kiadás) többé nem lesz aláírva, mivel a megváltozott kód aláírási szabályoka a JOSM-csapat számára nem elfogadhatóak. Az aláírást megkövetelő rendszerek használatakor a jövőben ismét megjelenhetnek figyelmeztetések.</li>
+          <li xml:lang="it">Il software JOSM (Archivio JAVA, versione di Windows e MacOS) non sarà più firmato. Le regole di firma del codice sono cambiate e non sono più accettabili per il team di JOSM. Se in futuro si utilizzerà un sistema che si basa sulla firma, verranno nuovamente mostrate delle richieste di avvertimento.</li>
+          <li xml:lang="ja">JOSMソフトウェア (Javaアーカイブ, WindowsおよびMacOSリリース) は署名されなくなります。コードの署名規則が変更され、JOSMチームでは受け入れられなくなりました。今後、署名を頼りにしているシステムを使用すると、警告の要求が再び表示されます。</li>
+          <li xml:lang="ko">JOSM 소프트웨어(Java 아카이브, Windows 및 MacOS 릴리스)에는 더 이상 서명이 붙지 않습니다. JOSM 개발팀이 받아들일 수 없는 방식으로 코드 서명 규칙이 변경되었기 때문입니다. 향후 프로그램 서명을 보는 시스템을 사용할 경우 경고 요청이 나타납니다.</li>
+          <li xml:lang="nb">JOSM-programvaren (Java-arkiv, Windows- og MacOS-utgivelser) vil ikke lenger være signert. Reglene for kodesignering har endret seg og er ikke lenger akseptable for JOSM-teamet. Når du bruker systemer som er avhengige av signering i fremtiden, vil advarsler dukke opp igjen.</li>
+          <li xml:lang="nl">Software van JOSM (Java-archief, uitgaven van Windows en MacOS) zullen niet langer getekend worden. Regels voor het tekenen van de code zijn veranderd en zijn niet langer acceptabel voor het team van JOSM. Bij het gebruiken van systemen die vertrouwen op ondertekening zullen in de toekomst weer waarschuwingen optreden.</li>
+          <li xml:lang="pt">O software JOSM (ficheiro Java, versão Windows e MacOS) não será mais assinado. As regras de assinatura de código foram alteradas e não são mais aceitáveis para a equipe do JOSM. Ao usar sistemas que dependem de assinatura, futuras solicitações de aviso aparecerão novamente.</li>
+          <li xml:lang="pt_BR">O software JOSM (arquivo Java, versão Windows e MacOS) não será mais assinado. As regras de assinatura de código foram alteradas e não são mais aceitáveis para a equipe do JOSM. Ao usar sistemas que dependem de assinatura, futuras solicitações de aviso aparecerão novamente.</li>
+          <li xml:lang="ru">Программное обеспечение JOSM (архив Java, выпуски для Windows и MacOS) больше не будут подписанными. Правила подписывания кода изменились и более не пригодны для команды JOSM. При использовании систем, основанных на подписи кода, в дальнейшем снова будут появляться предупреждения.</li>
+          <li xml:lang="sk">Softvér JOSM (Java archív, Windows a MacOS vydanie) nebude naďalej podpísaný. Zmenili sa pravidlá podpisovania programov a tie už nie sú prijateľné pre tím JOSM. Ak používate systém spoliehajúci sa na podpisovanie, v budúcnosti sa znovu zobrazia varovania.</li>
+          <li xml:lang="zh_CN">JOSM 软件（Jar包、Windows 和 MacOS 版本）将不再进行签名。JOSM 团队不再接受更改后的代码签名规则。当未来使用依赖签名的系统时，将出现警告请求。</li>
+          <li xml:lang="zh_TW">JOSM 軟體 (Java涵式包、Windows 與 MacOS 版本) 將不再有簽章。因為 JOSM 團隊不能接受改變的簽章規則。當未來系統依賴簽章規則的話則會出現警告訊息。</li>
+          <li>Remove Potlatch2 from the built-in styles. It has been replaced with wiki:Styles/Potlatch2. It should be replaced automatically, if you have the Potlatch2 style enabled.</li>
+          <li xml:lang="ar">تمت إزالة Potlatch2 من الأنماط المضمنة. تم استبداله ب wiki:Styles/Potlatch2. يجب استبداله تلقائيًا، إذا كان لديك نمط Potlatch2 ممكّنًا.</li>
+          <li xml:lang="de">Der Potlatch2-Zeichenstil wurde aus JOSM entfernt. Als Ersatz dient der externe Stil wiki:Styles/Potlatch2. Falls der Potlatch2-Stil genutzt wird sollte dies automatisch umgestellt werden.</li>
+          <li xml:lang="el">Αφαιρέστε το Potlatch2 από τα ενσωματωμένα στυλ. Έχει αντικατασταθεί από το wiki:Styles/Potlatch2. Αν έχετε ενεργοποιημένο το στυλ Potlatch2, θα πρέπει να αντικατασταθεί αυτόματα.</li>
+          <li xml:lang="eo">Forigi Potlatch2 el la enkonstruitaj stiloj. Ĝi estas anstataŭita per wiki:Styles/Potlatch2. Ĝi devus esti anstataŭigita aŭtomate, se vi havas la Potlatch2-stilon aktivigita.</li>
+          <li xml:lang="es">Eliminación de Potlatch2 de los estilos integrados. Ha sido reemplazado por wiki:Styles/Potlatch2. Debería reemplazarse automáticamente, si tienes el estilo Potlatch2 activado.</li>
+          <li xml:lang="fr">Suppression de Potlatch2 des Modèles de rendu de cartes (Coloriage) intégrés. Il a été remplacé par wiki:Styles/Potlatch2. Il devrait être remplacé automatiquement si le style Potlatch2 est activé.</li>
+          <li xml:lang="hu">A beépített Potlatch2 stílusok el lettek távolítva. Le lett cserélve a wiki:Styles/Potlatch2 lapon találhatóra. Ha engedélyezve volt a Potlatch2 stílus, elméleileg automatikusan lecserélődik.</li>
+          <li xml:lang="it">Rimosso Potlatch2 dagli stili pre-installati. È stato rimpiazzato da wiki:Styles/Potlatch2. Se lo stile Potlatch2 è abiltato, dovrebbe passare automaticamente a quello nuovo.</li>
+          <li xml:lang="ja">Potlatch2を組み込みスタイルから削除します。wiki:Styles/Potlatch2 に置き換えられました。Potlatch2スタイルを有効にしている場合は、自動的に置き換えられるはずです。</li>
+          <li xml:lang="ko">기본 제공 스타일에서 Potlatch2를 제거하고, 대신 wiki:Styles/Potlatch2로 대체했습니다. Potlatch2 스타일을 활성화할 때 자동으로 업데이트가 적용되어야 합니다.</li>
+          <li xml:lang="nb">Fjern Potlatch2 fra de innebygde stilene. Den er erstattet med wiki:Styles/Potlatch2. Den bør bli erstattet automatisk hvis du har Potlatch2-stilen aktivert.</li>
+          <li xml:lang="nl">Potlatch2 uit de ingebouwde kaarttekenstijlen verwijderd. Het is vervangen door wiki:Styles/Potlatch2. Het zou automatisch moeten worden vervangen, als u de kaarttekenstijl Potlatch2 hebt ingeschakeld.</li>
+          <li xml:lang="pt">Remove o Potlatch2 dos estilos integrados. Foi substituído por wiki:Styles/Potlatch2. Ele deve ser substituído automaticamente, se tiver o estilo Potlatch2 habilitado.</li>
+          <li xml:lang="pt_BR">Remove o Potlatch2 dos estilos integrados. Foi substituído por wiki:Styles/Potlatch2. Ele deverá ser substituído automaticamente, se você tiver o estilo Potlatch2 habilitado.</li>
+          <li xml:lang="ru">Удалён Potlatch2 из встроенных стилей. Он заменён на wiki:Styles/Potlatch2. Замена должна произойти автоматически, если у вас включен стиль Potlatch2.</li>
+          <li xml:lang="sk">Odstránený Potlatch2 zo zabudovaných štýlov. Nahradil ho wiki:Styles/Potlatch2. Mal by byť nahradený automaticky ak máte štýl Potlatch2 zapnutý.</li>
+          <li xml:lang="zh_CN">从内置样式中删除 Potlatch2。它已被 wiki:Styles/Potlatch2 取代。如果您启用了 Potlatch2 样式，它应当被自动替换。</li>
+          <li xml:lang="zh_TW">從內建樣式移除 Potlatch2。Potlatch2 已經被 wiki:Styles/Potlatch2 取代。如果你啟用 Potlatch2，應當會自動替換為 wiki:Styles/Potlatch2.</li>
+        </ul>
+      </description>
+    </release>
+    <release version="18822" date="2023-08-30">
+      <description>
+        <ul>
+          <li>Fix #23105: Add action to select shared/common child objects (patch by Woazboat, modified)</li>
+          <li xml:lang="ar">إصلاح رقم 23105: إضافة إجراء لتحديد الكائنات الفرعية المشتركة/المشتركة (تصحيح بواسطة Woazboat، تم التعديل)</li>
+          <li xml:lang="da">Fix #23105: Tilføj handling til at vælge delte underobjekter (patch af Woazboat, modificeret)</li>
+          <li xml:lang="de">Fix #23105: Funktion zur Auswahl gemeinsamer Unterobjekte hinzugefügt (Patch von Woazboat, modifiziert)</li>
+          <li xml:lang="el">Διόρθωση #23105: Προσθήκη ενέργειας για επιλογή μοιρασμένων/κοινόχρηστων θυγατρικών αντικειμένων (λογισμικό του Woazboat, τροποποιημένο)</li>
+          <li xml:lang="eo">Riparo #23105: Aldoni agon por elekti komunajn subobjektojn (flikaĵo de Woazboat, modifita).</li>
+          <li xml:lang="es">Corrección #23105: Se añade la acción para seleccionar objetos hijos compartidos/comunes (parche de Woazboat, modificado)</li>
+          <li xml:lang="fr">Correctif #23105 : Ajout d'une action pour sélectionner les objets enfants partagés/communs (correctif de Woazboat, modifié)</li>
+          <li xml:lang="hu">#23105 javítása: Új művelet a közös gyermekobjektumok kiválasztására (Woazboat patch-e, módosítva)</li>
+          <li xml:lang="it">Fix #23105: Aggiunta azione per selezionare oggetti figlio condivisi/in comune selezionati (patch di Woazboat, modificata)</li>
+          <li xml:lang="ko">#23105 수정: 공유/공통 자식 객체를 선택하는 기능 추가(Woazboat가 패치, 수정함)</li>
+          <li xml:lang="nb">Fiks #23105: Legg til en handling for å velge delte/felles underobjekter (patch av Woazboat, modifisert).</li>
+          <li xml:lang="nl">Fix #23105: Actie toegevoegd om gedeelde/gezamenlijke kindobjecten te selecteren (patch door Woazboat, aangepast)</li>
+          <li xml:lang="pt">Correção #23105: Adição de ação para selecionar objetos filhos compartilhados/comuns (corrigido por Woazboat, modificado)</li>
+          <li xml:lang="pt_BR">Correção #23105: Adição de ação para selecionar objetos filhos compartilhados/comuns (corrigido por Woazboat, modificado)</li>
+          <li xml:lang="sk">Oprava hlásenia #23105: Pridaná akcia pre výber zdieľaných/spoločných podriadených objektov (zmena od Woazboat, upravená)</li>
+          <li xml:lang="uk">Виправлення #23105: додано дію для вибору спільних/загальних дочірніх об’єктів (патч Woazboat, зі змінами)</li>
+          <li xml:lang="zh_CN">修正 #23105：添加操作以选择共享/公共子对象 (由 Woazboat 贡献，有修改过)</li>
+          <li xml:lang="zh_TW">修正 #23105：新增操作以選擇共享/公用子對象 (由 Woazboat 貢獻，有修改過)</li>
+        </ul>
+      </description>
+    </release>
+    <release version="18789" date="2023-08-01" />
+    <release version="18772" date="2023-07-07">
+      <description>
+        <ul>
+          <li>Fix #22279: Add new split mode for quick splitting of ways (patch by Woazboat, modified)</li>
+          <li xml:lang="de">Fix #22279: Neuer Aufteilungsmodus zum schnellen Aufteilen von Wegen (Patch von Woazboat)</li>
+          <li xml:lang="el">Διόρθωση #22279: Προσθήκη νέας λειτουργίας διαχωρισμού για γρήγορο διαχωρισμό των γραμμών (λογισμικό του Woazboat, τροποποιημένο)</li>
+          <li xml:lang="eo">Riparo #22279: Aldoni novan dividoreĝimon por rapida dividado de vojoj (flikaĵo de Woazboat, modifita).</li>
+          <li xml:lang="es">Corrección #22279: Se añade el nuevo modo de división para dividir rápidamente las vías (parche por Woazboat, modificado)</li>
+          <li xml:lang="fr">Correctif #22279 : Ajout d'un nouveau mode de division pour une division rapide des chemins (correctif de Woazboat, modifié)</li>
+          <li xml:lang="it">Fix #22279: Aggiunta nuova modalità suddivisione per dividere velocemente i percorsi (patch di Woazboat, modificata)</li>
+          <li xml:lang="ko">#22279 수정: 빠르게 길을 분할해 주는 새로운 분할 모드 추가(Woazboat가 패치, 이후 추가로 수정)</li>
+          <li xml:lang="nb">Fiks #22279: Legg til en ny splittmodus for rask splitting av veier (patch av Woazboat, modifisert).</li>
+          <li xml:lang="nl">Fix #22279: Nieuwe modus Splitsen toegevoegd voor snel splitsen van wegen (patch door Woazboat, aangepast)</li>
+          <li xml:lang="pt">Correção #22279: Adição do novo modo de divisão para dividir caminhos rapidamente (corrigido por Woazboat, modificado)</li>
+          <li xml:lang="pt_BR">Correção #22279: Adição do novo modo de divisão para dividir caminhos rapidamente (corrigido por Woazboat, modificado)</li>
+          <li xml:lang="sk">Oprava #22279: Pridaný nový režim delenia pre rýchle rozdelenie ciest (naprogramoval Woazboat, upravené)</li>
+          <li xml:lang="uk">Виправлення #22279: Додано новий режим швидкого розрізання ліній (патч від Woazboat, зі змінами)</li>
+          <li xml:lang="zh_CN">修正 #22279：新增新的快速切断路径的模式 (由 Woazboat 贡献，有修改过)</li>
+          <li xml:lang="zh_TW">修正 #22279：新增新的快速切斷路徑的模式 (由 Woazboat 貢獻，有修改過)</li>
+          <li>Please note that the default shortcut conflicts with the knife tool from the auto-tools plugin. The new split mode should replace the knife tool from auto-tools for most people.</li>
+          <li xml:lang="de">Bitte beachten Sie, dass die Standard-Verknüpfung mit dem Messer-Werkzeug aus dem Auto-Tools-Plugin kollidiert. Der neue Split-Modus "sollte" das Messer-Werkzeug aus dem Auto-Tools-Plugin für die meisten Leute ersetzen.</li>
+          <li xml:lang="el">Σημειώστε ότι η προεπιλεγμένη συντόμευση έρχεται σε σύγκρουση με το Εργαλείο Μαχαιριού από το πρόσθετο Αυτόματα Εργαλεία. Η νέα λειτουργία διαχωρισμού θα πρέπει να αντικαταστήσει το Εργαλείο Μαχαιριού από τα Αυτόματα Εργαλεία για τους περισσότερους ανθρώπους.</li>
+          <li xml:lang="eo">Bonvolu noti, ke la defaŭlta fulmoklavo konfliktas kun la tranĉilo-iloj de la kromprogramo aŭtomataj iloj. La nova dividoreĝimo devus anstataŭi la tranĉilo-ilojn de aŭtomataj iloj por plej multaj homoj.</li>
+          <li xml:lang="es">Tenga en cuenta que el acceso directo por defecto entra en conflicto con la herramienta de cuchillo del complemento auto-tools. El nuevo modo de división debería reemplazar la herramienta de cuchillo de auto-tools para la mayoría de la gente.</li>
+          <li xml:lang="fr">Veuillez noter que le raccourci par défaut entre en conflit avec l'outil "knife" (couteau) du greffon auto-tools. Le nouveau mode de division devrait remplacer l'outil knife du greffon auto-tools pour la plupart des utilisateurs.</li>
+          <li xml:lang="it">Tieni presente che la scorciatoia da tastiera predefinita confligge con lo strumento coltello dell'estensione auto_tools. La nuova modalità suddivisione, per la maggior parte degli utenti, dovrebbe rimpiazzare lo strumento coltello dell'estensione auto_tools.</li>
+          <li xml:lang="ko">기본 단축키가 '자동 도구' 플러그인의 칼 도구와 충돌한다는 사실에 유의하세요. 대부분의 사람들에게 새로운 분할 모드는 자동 도구 플러그인의 칼 도구를 대체합니다.</li>
+          <li xml:lang="nb">Vær oppmerksom på at standard snarveien konflikter med knivverktøyet fra auto-tools-tillegget. Den nye splittmodusen bør erstatte knivverktøyet fra auto-tools for de fleste brukere.</li>
+          <li xml:lang="nl">Onthoud dat de standaard sneltoets conflicteert met het gereedschap Mes van de plug-in Auto-tools. De nieuwe modus voor splitsen zou het gereedschap Mes uit Auto-tools voor de meeste mensen moeten vervangen.</li>
+          <li xml:lang="pt">Tenha em conta que o atalho padrão entra em conflito com a ferramenta de "faca" da extensão auto-tools. O novo modo de divisão deve substituir a ferramienta de "faca" de auto-tools para a maioria das pessoas.</li>
+          <li xml:lang="pt_BR">Tenha em conta que o atalho padrão entra em conflito com a ferramenta de "faca" da extensão auto-tools. O novo modo de divisão deve substituir a ferramienta de "faca" de auto-tools para a maioria das pessoas.</li>
+          <li xml:lang="sk">Prosím všimnite si, že predvolená klávesová skratka koliduje s režimom noža z pluginu auto_tools. Pre väčšinu používateľov by nový režim delenia mal nahradiť nástroj noža z auto_tools.</li>
+          <li xml:lang="uk">Зауважте, що типова комбінація гарячих клавіш конфліктує з інструментом Ніж з втулка auto-tools. Новий режим «має» замінити інструмент Ніж з auto-tools для більшості людей.</li>
+          <li xml:lang="zh_CN">请注意预设的快捷键与自动工具插件当中的小刀工具冲突。新的切断模式对多数人来说应该能替代自动工具当中的小刀工具。</li>
+          <li xml:lang="zh_TW">請注意預設的快速鍵與自動工具插件當中的切割工具衝突。新的切斷模式應該對多數人來說能替代自動工具當中的切割工具。</li>
+          <li>Fix #9446: Show progress on upload validation (patch updated by gaben)</li>
+          <li xml:lang="de">Fix #9446: Fortschrittsanzeige bei Upload-Validierung (Patch aktualisiert von gaben)</li>
+          <li xml:lang="el">Διόρθωση #9446: Εμφάνιση προόδου κατά την επικύρωση μεταφόρτωσης (η ενημέρωση λογισμικού από την gaben)</li>
+          <li xml:lang="eo">Riparo #9446: Montri progreson dum validigo de alŝuto (ĝisdatigita flikaĵo de gaben).</li>
+          <li xml:lang="es">Corrección #9446: Mostrar progreso en la validación de subidas (parche actualizado por gaben)</li>
+          <li xml:lang="fr">Correctif #9446 : Affiche la progression de la validation de l'envoi des données (correctif mis à jour par gaben)</li>
+          <li xml:lang="it">Fix #9446: Mostra l'avanzamento durante la validazione del caricamento (patch aggiornata da gaben)</li>
+          <li xml:lang="ko">#9446 수정: 업로드 유효성 검사의 진행률을 표시하도록 수정(gaben이 업데이트한 패치)</li>
+          <li xml:lang="nb">Fiks #9446: Vis fremdrift under validering av opplasting (oppdatert patch av gaben).</li>
+          <li xml:lang="nl">Fix #9446: Voortgang weergeven voor uploaden Validatie (patch bijgewerkt door gaben)</li>
+          <li xml:lang="pt">Correção #9446: Mostra o progresso na validação dos envios (correção atualizada por gaben)</li>
+          <li xml:lang="pt_BR">Correção #9446: Mostra o progresso na validação dos envios (correção atualizada por gaben)</li>
+          <li xml:lang="sk">Oprava #9446: Zobrazenie priebehu pri overovaní odosielaných zmien (zmenu upravil gaben)</li>
+          <li xml:lang="uk">Виправлення #9446: Показується прогрес проведення валідації перед надсиланням даних (патч від gaben)</li>
+          <li xml:lang="zh_CN">修正 #9446：上传验证时会显示进度 (由 gaben 贡献更新)</li>
+          <li xml:lang="zh_TW">修正 #9446：上傳驗證時顯示進度 (由 gaben 貢獻更新)</li>
+        </ul>
+      </description>
+    </release>
+    <release version="18746" date="2023-06-03" />
+    <release version="18721" date="2023-05-02" />
+    <release version="18700" date="2023-03-31" />
+    <release version="18678" date="2023-03-02">
+      <description>
+        <ul>
+          <li>OAuth 2 Support for OpenStreetMap Authentication (see #20768)</li>
+          <li xml:lang="ca">Compatibilitat amb OAuth 2 per a l'autenticació d'OpenStreetMap (vegeu #20768)</li>
+          <li xml:lang="de">OAuth 2 Unterstützung für OpenStreetMap Authentifizierung (siehe #20768)</li>
+          <li xml:lang="el">Υποστήριξη OAuth 2 για την ταυτοποίηση στο OpenStreetMap (δείτε #20768)</li>
+          <li xml:lang="eo">Subteno por OAuth 2 por OpenStreetMap-aŭtentikigo (vidu #20768).</li>
+          <li xml:lang="es">Soporte de OAuth 2 para la autenticación en OpenStreetMap (ver #20768)</li>
+          <li xml:lang="fr">Support d'OAuth 2 pour l'authentification d'OpenStreetMap (voir #20768)</li>
+          <li xml:lang="hu">OAuth 2 támogatás OpenStreetMap bejelentkezéshez (lásd #20768)</li>
+          <li xml:lang="it">Supporto all'autenticazione su OpenStreetMap tramite OAuth 2 (vedi #20768)</li>
+          <li xml:lang="ja">OpenStreetMapの認証でOAuth 2をサポートしました (#20768 参照)</li>
+          <li xml:lang="ko">오픈스트리트맵 인증에 OAuth 2 지원(#20768 참고)</li>
+          <li xml:lang="lt">OAuth 2 palaikymas OpenStreetMap tapatumo nustatymui (žr. #20768)</li>
+          <li xml:lang="nb">Støtte for OAuth 2 for OpenStreetMap-autentisering (se #20768).</li>
+          <li xml:lang="nl">Ondersteuning voor OAuth 2 voor OpenStreetMap authenticatie (bekijk #20768)</li>
+          <li xml:lang="pt">Suporte a OAuth 2 para a autenticação no OpenStreetMap (ver #20768)</li>
+          <li xml:lang="pt_BR">Suporte a OAuth 2 para a autenticação no OpenStreetMap (ver #20768)</li>
+          <li xml:lang="ru">Поддержка OAuth 2 для аутентификации в OpenStreetMap (см. #20768)</li>
+          <li xml:lang="sk">Podpora OAuth 2 pre autentifikáciu do OpenStreetMap (pozri #20768)</li>
+          <li xml:lang="uk">Підтримка OAuth 2 для автентифікації в OpenStreetMap (див. #20768)</li>
+          <li xml:lang="zh_CN">OpenStreetMap 认证支持 OAuth 2 (参见 #20768)</li>
+          <li xml:lang="zh_TW">OpenStreetMap 認證支援 OAuth 2 (參見 #20768)</li>
+        </ul>
+      </description>
+    </release>
+    <release version="18646" date="2023-01-30" />
+    <release version="18622" date="2023-01-04">
+      <description>
+        <ul>
+          <li>Add tabs to Image Viewer Dialog to allow users to quickly switch between geotagged image layers, which now include GPX waypoint images (#21605)</li>
+          <li xml:lang="ca">Afegiu pestanyes a Image Viewer Dialog per permetre als usuaris canviar ràpidament entre les capes d'imatge geoetiquetades, que ara inclouen imatges de waypoint GPX (#21605)</li>
+          <li xml:lang="de">Reiter im Bildbetrachter wurden hinzugefügt, um es zu ermöglichen schnell zwischen georeferenzierten Bilderebenen, welche jetzt auch GPS-Wegpunkt-Bilder enthalten, zu wechseln (#21605)</li>
+          <li xml:lang="el">Προσθήκη καρτελών στο Παράθυρο Προβολής Εικόνων, ώστε οι χρήστες να μπορούν να εναλλάσσονται γρήγορα μεταξύ των γεωαναφερμένων επιπέδων εικόνων, τα οποία πλέον περιλαμβάνουν και εικόνες από σημεία GPX (#21605)</li>
+          <li xml:lang="eo">Aldoni langetojn al Bildorigarda Dialogo por permesi al uzantoj rapide ŝalti inter geokoditaj bildaj tavoloj, kiuj nun inkluzivas GPX-vojpunktojn bildojn (#21605).</li>
+          <li xml:lang="es">Se añadió pestañas al diálogo del visor de imágenes para permitir a los usuarios cambiar rápidamente entre las capas de imágenes geoetiquetadas, que ahora incluyen imágenes de puntos de ruta GPX (#21605)</li>
+          <li xml:lang="fr">Ajout d'onglets à la Fenêtre d'Images Géolocalisées pour permettre aux utilisateurs de basculer rapidement entre plusieurs calques d'images géolocalisées, qui incluent désormais les images de waypoints GPX (#21605)</li>
+          <li xml:lang="hu">Fülek hozzáadása a Képnéző panelhez, lehetővé téve a geotaggelt rétegek közti gyors váltást. A képnéző már tartalmazza a GPX útpontok képeit is (#21605)</li>
+          <li xml:lang="it">Aggiunte schede nella finestra di visualizzazione delle immagini per permettere agli utenti di commutare rapidamente tra i livelli di immagini georeferenziate (che adesso includono anche le immagini nei waypoint delle tracce GPX (#21605))</li>
+          <li xml:lang="ja">画像ビューアのダイアログにタブを追加しました。ユーザーはGPXのウェイポイント画像を含むジオタグ付き画像レイヤーを素早く切り替えられます (#21605)</li>
+          <li xml:lang="ko">위치 정보가 있는 여러 이미지 레이어(GPX 웨이포인트 이미지 포함)를 빠르게 전환할 수 있는 탭을 이미지 뷰어 창에 추가(#21605)</li>
+          <li xml:lang="lt">Į Geopažymėtų vaizdų langą pridėtos kortelės, kad būtų galima greitai perjungti geopažymėtų vaizdų sluoksnius, tarp kurių dabar yra ir GPX kelio žymų vaizdai (#21605)</li>
+          <li xml:lang="nb">Legg til faner til Bildeviser-dialog for å la brukere raskt bytte mellom geotaggerte bildelag, som nå inkluderer GPX-veipunktsbilder (#21605).</li>
+          <li xml:lang="nl">Tabs toegevoegd aan dialoogvenster Image Viewer om gebruikers snel te kunnen laten wisselen tussen afbeeldingslagen met geoverwijzingen, die nu afbeeldingen voor GPX-waypoint bevatten (#21605)</li>
+          <li xml:lang="pt">Adição de abas no diálogo de visualização de imagens para permitir que os usuários mudem rapidamente entre as camadas de imagens georreferenciadas, que agora incluem imagens de pontos de trilhos GPX (#21605)</li>
+          <li xml:lang="pt_BR">Adição de abas no diálogo de visualização de imagens para permitir que os usuários mudem rapidamente entre as camadas de imagens georreferenciadas, que agora incluem imagens de pontos de trilhas GPX (#21605)</li>
+          <li xml:lang="ru">Добавлены вкладки в Image Viewer Dialog чтобы пользователи могли быстро переключаться между слоями изображений с геотегами, которые теперь включают изображения путевых точек GPX (#21605)</li>
+          <li xml:lang="sk">Pridané záložky do okna zobrazovania obrázkov, aby bolo možné rýchlo prepínať medzi vrstvami obrázkov so súradnicami, ktoré teraz obsahujú aj obrázky GPX bodov trasy (#21605)</li>
+          <li xml:lang="uk">Додано вкладки до Діалогу перегляду знімків, щоб дозволити користувачам швидко перемикатись між шарами геотеґованих знімків, які зараз включають зображення з маршрутними точками GPX (#21605)</li>
+          <li xml:lang="zh_CN">影像检视对话窗新增页签来允许使用者快速切换有地理标记的图片图层，如今也包括 GPX 路径影像 (#21605)</li>
+          <li xml:lang="zh_TW">影像檢視對話窗新增頁籤來允許使用者快速切換有地理標記的圖片圖層，如今也包括 GPX 路徑影像 (#21605)</li>
+        </ul>
+      </description>
+    </release>
+    <release version="18621" date="2022-12-29" />
+    <release version="18583" date="2022-11-01" />
+    <release version="18570" date="2022-10-07" />
+    <release version="18565" date="2022-09-30" />
+    <release version="18543" date="2022-08-30">
+      <description>
+        <ul>
+          <li>Add a popup menu for notes</li>
+          <li xml:lang="de">Popup-Menü für Notizen hinzugefügt</li>
+          <li xml:lang="el">Προσθέστε ένα αναδυόμενο μενού για σημειώσεις</li>
+          <li xml:lang="eo">Aldoni ŝprucfenestron por notoj.</li>
+          <li xml:lang="es">Se añadió un menú emergente para las notas (parche de Woazboat)</li>
+          <li xml:lang="fr">Ajout d'un menu popup pour les notes</li>
+          <li xml:lang="hu">Új helyi menü a jegyzetekhez</li>
+          <li xml:lang="it">Aggiunto un menù popup per le note</li>
+          <li xml:lang="ja">ノートにポップアップメニューを追加しました</li>
+          <li xml:lang="ko">참고를 우클릭할 때 바로가기 메뉴가 뜨도록 함</li>
+          <li xml:lang="lt">Pastaboms pridėtas iškylantis meniu</li>
+          <li xml:lang="nb">Legg til en sprettoppmeny for notater.</li>
+          <li xml:lang="nl">Pop-upmenu toegevoegd voor opmerkingen</li>
+          <li xml:lang="ru">Добавлено всплывающее меню для заметок</li>
+          <li xml:lang="sk">Pridané kontextové menu pre OSM poznámky</li>
+          <li xml:lang="sr@latin">Dodat je iskačući meni za napomene</li>
+          <li xml:lang="uk">Додано виринаюче меню для нотаток</li>
+          <li xml:lang="zh_CN">为注解新增跳出选单</li>
+          <li xml:lang="zh_TW">為註解新增跳出選單</li>
+        </ul>
+      </description>
+    </release>
+    <release version="18531" date="2022-08-02" />
+    <release version="18513" date="2022-07-08" />
+    <release version="18463" date="2022-05-30">
+      <description>
+        <ul>
+          <li>Mac now uses ⌘ instead of ctrl for most Select map mode actions (including Rotate and Scale)</li>
+          <li xml:lang="de">Mac nutzt nun ⌘ anstelle von ctrl für die meisten Aktionen des Auswahl-Arbeitsmodus (einschließlich Rotieren und Skalieren)</li>
+          <li xml:lang="el">Το Mac χρησιμοποιεί πλέον το ⌘ αντί για το ctrl για τις περισσότερες ενέργειες Eπιλογής χάρτη (συμπεριλαμβανομένης της Περιστροφής και της Κλίμακας)</li>
+          <li xml:lang="eo">Mac nun uzas ⌘ anstataŭ ctrl por plej multaj agoj de Elekti maporeĝimo (inkluzive Rotacii kaj Skali).</li>
+          <li xml:lang="es">Mac ahora utiliza ⌘ en lugar de ctrl para la mayoría de las acciones del modo Seleccionar mapa (incluyendo Rotar y Escalar)</li>
+          <li xml:lang="fr">Mac utilise désormais ⌘ au lieu de ctrl pour la plupart des actions du mode Sélectionner des objets sur le calque actif (y compris Faire pivoter et Mettre à l'échelle)</li>
+          <li xml:lang="hu">Macen a Kijelölés térképmód a legtöbb művelete már ⌘-t használ ctrl helyett (beleértve a Forgatást és az Átméretezést)</li>
+          <li xml:lang="it">Il Mac adesso usa ⌘ al posto di ctrl per la maggior parte delle azioni della modalità Seleziona (inclusi Ruota e Scala)</li>
+          <li xml:lang="ja">Macでは、マップの選択モードにおける大半の操作 (回転や拡大縮小を含む) でctrlの代わりに⌘を使用できるようになりました。</li>
+          <li xml:lang="ko">대부분의 지도 선택 모드(회전 및 확대/축소 포함)에서 ctrl 대신 ⌘를 사용하도록 변경(맥 버전만 해당)</li>
+          <li xml:lang="lt">Mac dabar naudoja ⌘ vietoje ctrl daugumai žemėlapio Žymėjimo veiksenos veiksmų (įskaitant Pasukimą ir Dydžio keitimą)</li>
+          <li xml:lang="nb">Mac bruker nå ⌘ i stedet for ctrl for de fleste handlinger i Velg-kartmodus (inkludert Roter og Skaler).</li>
+          <li xml:lang="nl">Mac gebruikt nu ⌘ in plaats van ctrl voor de meeste acties van kaartmodus Selecteren (inclusief Roteren en Schaal)</li>
+          <li xml:lang="ru">В MacOS теперь используется клавиша ⌘ вместо ctrl для большинства действий в режиме Выделение (включая Поворот и Изменение размера объектов)</li>
+          <li xml:lang="sk">Mac teraz používa ⌘ namiesto Ctrl pre väčšinu činností na výbere (vrátane rotácie a zmeny veľkosti)</li>
+          <li xml:lang="sr@latin">Mac sada koristi ⌘ umesto ctrl u većini funkcija koje su sabrane u meniju Izbor (odnosi se i na Rotiranje i na Skaliranje)</li>
+          <li xml:lang="uk">JOSM на macOS тепер використовує ⌘ замість Ctrl для більшості випадків роботи в режимі Виділення (включаючи Обертання та Масштабування)</li>
+          <li xml:lang="zh_CN">Mac 版的大部分选取地图模式行为 (包括 旋转和缩放)如今采用 ⌘ 来取代 ctrl</li>
+          <li xml:lang="zh_TW">Mac 版本的大部分選取地圖模式行為 (包括 旋轉和縮放)如今採用 ⌘ 來取代 ctrl</li>
+        </ul>
+      </description>
+    </release>
+    <release version="18427" date="2022-04-05" />
+    <release version="18387" date="2022-03-07" />
+    <release version="18360" date="2022-01-02" />
+    <release version="18303" date="2021-11-01">
+      <description>
+        <ul>
+          <li>Code simplification of upload dialog</li>
+          <li xml:lang="ca">Simplificació del codi del diàleg de pujada</li>
+          <li xml:lang="de">Kodevereinfachung des Dialogs zum Hochladen</li>
+          <li xml:lang="el">Απλοποίηση κώδικα του διαλόγου μεταφόρτωσης</li>
+          <li xml:lang="eo">Simpligo de la kodo por la alŝuta dialogo.</li>
+          <li xml:lang="es">Simplificación del código del diálogo de subida</li>
+          <li xml:lang="fr">Simplification du code de la fenêtre d'envoi des données</li>
+          <li xml:lang="it">Semplificazione del codice della finestra di caricamento dei dati</li>
+          <li xml:lang="ko">업로드 창의 코드를 단순화함</li>
+          <li xml:lang="lt">Išsiuntimo dialogo lango kodo supaprastinimas</li>
+          <li xml:lang="nb">Forenkling av koden for opplastingsdialogen.</li>
+          <li xml:lang="nl">Vereenvoudiging van code voor dialoogvenster Uploaden</li>
+          <li xml:lang="pl">Uproszczono kod źródłowy okna przesyłania zmian</li>
+          <li xml:lang="ru">Упрощение кода диалога отправки данных на сервер</li>
+          <li xml:lang="sk">Zjednodušenie okna odosielania zmien</li>
+          <li xml:lang="uk">Спрощення коду діалогового вікна надсилання даних на сервер</li>
+          <li xml:lang="zh_CN">简化上传对话框的代码</li>
+          <li xml:lang="zh_TW">簡化上傳對話框的程式碼</li>
+          <li>Initial implementation of 360° (panoramic) image viewer and new button to view images in an external viewer</li>
+          <li xml:lang="ca">Implementació inicial del visor d’imatges de 360° (panoràmiques) i nou botó per a veure imatges en un visor extern</li>
+          <li xml:lang="de">Erste Ausführung eines 360-Panorama-Bildbetrachters und neuer Befehlsknopf um Bilder extern anzuzeigen</li>
+          <li xml:lang="el">Αρχική εφαρμογή προβολής εικόνων 360° (πανοραμική) και νέο κουμπί για προβολή εικόνων σε εξωτερικό πρόγραμμα προβολής</li>
+          <li xml:lang="eo">Unua efektivigo de 360° (panorama) bildrigardilo kaj nova butono por vidi bildojn en ekstera rigardilo</li>
+          <li xml:lang="es">Implementación inicial del visor de imágenes de 360° (panorámicas) y nuevo botón para ver imágenes en un visor externo</li>
+          <li xml:lang="fr">Mise en œuvre initiale de la visionneuse d'images à 360° (panoramiques) et nouveau bouton pour visualiser les images dans une visionneuse externe</li>
+          <li xml:lang="it">Implementazione iniziale del visualizzatore di immagini a 360° (panoramiche) e nuovo pulsante per visualizzare le immagini con un programma esterno</li>
+          <li xml:lang="ko">360°(파노라마) 이미지 뷰어 구현, 외부 이미지 뷰어를 여는 버튼 추가</li>
+          <li xml:lang="lt">Pradinis 360° (panoraminių) vaizdų žiūryklės realizacija ir naujas mygtukas vaizdo peržiūrai išorinėje žiūryklėje</li>
+          <li xml:lang="nb">Første implementering av 360° (panoramisk) bildeviser og ny knapp for å vise bilder i en ekstern viser</li>
+          <li xml:lang="nl">Initiële implementatie van 360° (panoramisch) afbeeldingen en nieuwe knop om afbeeldingen te bekijken in extern programma</li>
+          <li xml:lang="pl">Dodano wstępną implementację przeglądarki obrazów panoramicznych i 360°. Dodano nowy przycisk do otwierania obrazów w zewnętrznych programach</li>
+          <li xml:lang="ru">Начальная реализация 360° (панорамного) просмотрщика изображения плюс возможность открывать изображения во внешней программе просмотра</li>
+          <li xml:lang="sk">Prvotná implementácia zobrazovania 360° (panoramatických) obrázkov a nové tlačidlo pre zobrazenie obrázkov v externom prehliadači</li>
+          <li xml:lang="uk">Початкова реалізація оглядача 360° (панорамних) зображень та нова кнопка для перегляду зображень у зовнішній програмі</li>
+          <li xml:lang="zh_CN">开始实作 360° (全景) 图片检视器，以及增加在外部检视器浏览图片的新按钮</li>
+          <li xml:lang="zh_TW">開始實作 360° (全景) 圖片檢視器，以及增加在外部檢視器瀏覽圖片的新按鈕</li>
+        </ul>
+      </description>
+    </release>
+    <release version="18193" date="2021-09-03">
+      <description>
+        <ul>
+          <li>New Windows and macOS installer including Java 16 and JavaFX; Ubuntu package now depends on openjfx</li>
+          <li xml:lang="ca">Nou instal·lador per a Windows i macOS que inclou Java 16 i JavaFX; el paquet d’Ubuntu ara depèn d’openjfx</li>
+          <li xml:lang="de">Neue Windows- und macOS-Installer beinhalten Java 16 und JavaFX; Das Ubuntu-Paket hängt nun ab von openjfx</li>
+          <li xml:lang="el">Νέο πρόγραμμα εγκατάστασης Windows και macOS, συμπεριλαμβανομένων των Java 16 και JavaFX. Το πακέτο Ubuntu εξαρτάται πλέον από το openjfx</li>
+          <li xml:lang="eo">Nova Windows kaj macOS instalilo inkluzive Java 16 kaj JavaFX; Ubuntu-pakaĵo nun dependas de openjfx</li>
+          <li xml:lang="es">Nuevo instalador para Windows y macOS que incluye Java 16 y JavaFX; el paquete de Ubuntu depende ahora de openjfx</li>
+          <li xml:lang="fr">Nouveau programme d'installation pour Windows et macOS incluant Java 16 et JavaFX ; le paquet Ubuntu dépend maintenant d'openjfx</li>
+          <li xml:lang="hu">Új Windows és macOS telepítő, ami tartalmazza a Java16-ot és a JavaFX-et; Az Ubuntu csomagnak mostantól függősége az openjfx</li>
+          <li xml:lang="it">Nuovo installatore per Windows e macOS con inclusi Java 16 e JavaFX; il pacchetto di Ubuntu adesso dipende da openjfx</li>
+          <li xml:lang="ja">新しいWindowsとmacOSのインストーラーにJava 16とJavaFXが含まれています。 ; Ubuntuパッケージはopenjfxに依存するようになりました。</li>
+          <li xml:lang="ko">Windows와 macOS 인스톨러에 Java 16과 JavaFX 포함, 우분투 패키지가 openjfx에 의존하게 됨</li>
+          <li xml:lang="lt">Nauja Windows ir macOS diegimo programa kartu su Java 16 ir JavaFX; Ubuntu paketas dabar priklauso nuo openjfx</li>
+          <li xml:lang="nb">Ny Windows- og macOS-installasjonsprogram inkludert Java 16 og JavaFX; Ubuntu-pakke avhenger nå av openjfx</li>
+          <li xml:lang="nl">Nieuw Windows en macOS installatieprogramma, inclusief Java 16 en JavaFX; pakket van Ubuntu is nu afhankelijk van openjfx</li>
+          <li xml:lang="pl">Nowy instalator dla Windowsa i macOS zawierający Javę 16 oraz JavaFX; pakiet Ubuntu od teraz zależy od openjfx</li>
+          <li xml:lang="ru">Новый инсталлятор для Windows и macOS, включающий Java 16 и JavaFX. Пакет Ubuntu теперь зависит от openjfx</li>
+          <li xml:lang="sk">Nový inštalátor pre Windows a macOS obsahuje Java 16 a JavaFX; balík pre Ubuntu teraz závisí na openjfx</li>
+          <li xml:lang="uk">Новий встановлювач для Windows та macOS, який містить Java 16 та JavaFX. Пакунок для Ubuntu тепер має залежності для встановлення openjfx.</li>
+          <li xml:lang="zh_CN">新的 Windows 与 macOS 安装档包含 Java 16 与 JavaFX；Ubuntu套件则相依性 openjfx</li>
+          <li xml:lang="zh_TW">新的 Windows 與 macOS 安裝檔包含 Java 16 與 JavaFX；Ubuntu套件則相依性 openjfx</li>
+        </ul>
+      </description>
+    </release>
+    <release version="18191" date="2021-09-01" />
+    <release version="18118" date="2021-08-02" />
+    <release version="18004" date="2021-07-12">
+      <description>
+        <ul>
+          <li>Update fully automatic OAuth authentication to adapt to recent OSM server change</li>
+          <li xml:lang="de">Vollautomatische OAuth Autorisierung wurde an jüngste Änderungen des OSM-Servers angepasst</li>
+          <li xml:lang="el">Ενημέρωση της πλήρως αυτόματης ταυτοποίησης μέσω OAuth ώστε να προσαρμοστεί στις πρόσφατες αλλαγές του διακομιστή του OSM</li>
+          <li xml:lang="eo">Ĝisdatigo de tute aŭtomata OAuth-aŭtentikigo por adaptiĝi al lastaj ŝanĝoj de OSM-servilo</li>
+          <li xml:lang="es">Actualización de la autenticación OAuth totalmente automática para adaptarse al reciente cambio del servidor OSM</li>
+          <li xml:lang="et">Uuendatud täisautomaatset OAuth autentimist, et kohanduda hiljutise OSM serveri muudatusega</li>
+          <li xml:lang="fr">Mise à jour de l'authentification OAuth entièrement automatique pour s'adapter au récent changement de serveur OSM</li>
+          <li xml:lang="hu">Teljesen automatikus OAuth hitelesítés, igazodva az OSM szerver legutóbbi változásaihoz</li>
+          <li xml:lang="it">Aggiornata autenticazione completamente automatica per adattarla alle recenti modifiche lato OSM server</li>
+          <li xml:lang="ko">최근 오픈스트리트맵 서버 변경에 맞춰 전자동 OAuth 인증 업데이트</li>
+          <li xml:lang="lt">Visiškai automatinis OAuth tapatumo nustatymas adaptuotas paskutiniams OSM serverio pakeitimams</li>
+          <li xml:lang="nb">Oppdatering av fullt automatisk OAuth-autentisering for å tilpasse seg nylige endringer i OSM-serveren</li>
+          <li xml:lang="nl">Volledig geautomatiseerde authenticatie voor OAuth bijgewerkt om te voldoen aan de recente wijziging voor de server van OSM</li>
+          <li xml:lang="pl">Zaktualizowano funkcję automatycznego uwierzytelniania OAuth w celu adaptacji do niedawnych zmian serwera OSM</li>
+          <li xml:lang="ru">Полностью автоматическая OAuth-аутентификация обновлена для соответствия последнему изменению сервера OSM</li>
+          <li xml:lang="sk">Plnoautomatická autentifikácia cez OAuth prispôsobená zmenám na OSM serveri</li>
+          <li xml:lang="sr@latin">Ažurirano je na potpuno automatizovanu OAuth potvrdu identiteta kako bi se usaglasilo sa poslednjom promenom OSM servera</li>
+          <li xml:lang="uk">Автоматична автентифікація через OAuth була оновлена у зв’язку з оновленнями на сервері OSM</li>
+          <li xml:lang="zh_CN">更新自动化 OAuth 认证来调整为最新的 OSM 服务器变动</li>
+          <li xml:lang="zh_TW">更新自動化 OAuth 認證來調整為最新的 OSM 伺服器變動</li>
+        </ul>
+      </description>
+    </release>
+    <release version="17919" date="2021-06-02">
+      <description>
+        <ul>
+          <li>Add support for Mapbox Vector Tile</li>
+          <li xml:lang="de">Unterstützung für Mapbox-Vector-Tile wurde hinzugefügt</li>
+          <li xml:lang="el">Προσθήκη υποστήριξης για Mapbox Vector Tile</li>
+          <li xml:lang="eo">Aldoni subtenon por Mapbox Vector Tile</li>
+          <li xml:lang="es">Añadido soporte para Mapbox Vector Tile</li>
+          <li xml:lang="et">Lisatud Mapbox Vector Tile vormingu tugi</li>
+          <li xml:lang="fr">Ajout de la prise en charge des tuiles vectorielles (format Mapbox Vector Tile)</li>
+          <li xml:lang="hu">A Mapbox Vector Tile csempeformátum támogatása</li>
+          <li xml:lang="it">Aggiunto il support alle mattonelle vettoriali di Mapbox</li>
+          <li xml:lang="ko">맵박스(Mapbox) 벡터 타일 지원 추가</li>
+          <li xml:lang="lt">Pridėtas Mapbox Vector Tile palaikymas</li>
+          <li xml:lang="nb">Legg til støtte for Mapbox Vector Tile</li>
+          <li xml:lang="nl">Ondersteuning toegevoegd voor Mapbox Vector Tile</li>
+          <li xml:lang="pl">Dodanie obsługi wektorowych kafelków Mapbox</li>
+          <li xml:lang="ru">Добавлена поддержка формата MVT (Mapbox Vector Tile)</li>
+          <li xml:lang="sk">Pridaná podpora pre vektorové dlaždice Mapbox</li>
+          <li xml:lang="sr@latin">Dodata je podrška za Mapbox Vector Tile</li>
+          <li xml:lang="uk">Додадно підтримку роботи з форматом Mapbox Vector Tile</li>
+          <li xml:lang="zh_CN">新增支援 Mapbox 向量图砖</li>
+          <li xml:lang="zh_TW">新增支援 Mapbox 向量圖磚</li>
+          <li>Show geocoded images from Wikimedia Commons as GeoImageLayer</li>
+          <li xml:lang="de">Bilder von Wikimedia Commons werden als georeferenzierte Bilderebene dargestellt</li>
+          <li xml:lang="el">Εμφάνιση γεωκωδικοποιημένων εικόνων από το Wikimedia Commons ως GeoImageLayer</li>
+          <li xml:lang="eo">Montri geokoditajn bildojn de Wikimedia Commons kiel GeoImageLayer</li>
+          <li xml:lang="es">Mostrar imágenes geocodificadas de Wikimedia Commons como GeoImageLayer</li>
+          <li xml:lang="et">Geokodeeritud Wikimedia Commons piltide kuvamine GeoImageLayer kihina</li>
+          <li xml:lang="fr">Affichage des images géocodées de Wikimedia Commons en tant que calque d'images géolocalisées GeoImageLayer</li>
+          <li xml:lang="hu">Geokódolt képek megjelenítése a Wikimédia Commonsról GeoImage rétegként</li>
+          <li xml:lang="it">Mostra immagini geocodificate di Wikimedia Commons come livello "GeoImage"</li>
+          <li xml:lang="ko">지오코딩된 위키미디어 공용 이미지를 GeoImageLayer로 보여줌</li>
+          <li xml:lang="lt">Geopažymėtų vaizdų iš Vikitekos rodymas geovaizdų sluoksnyje</li>
+          <li xml:lang="nb">Vis geokodede bilder fra Wikimedia Commons som GeoImageLayer</li>
+          <li xml:lang="nl">Afbeeldingen met geoverwijzingen van Wikimedia Commons weergaven als GeoImageLayer</li>
+          <li xml:lang="pl">Geotagowane obrazy Wikimedia Commons są pokazywane jako warstwa GeoImageLayer</li>
+          <li xml:lang="ru">Показ геотегированных изображений с Викисклада как слоя изображений с данными о местоположении</li>
+          <li xml:lang="sk">Zobrazovanie obrázkov z Wikimedia Commons so súradnicami vo vrstve GeoImageLayer</li>
+          <li xml:lang="sr@latin">Prikaz georeferenciranih fotografija sa Wikimedia Commons kao GeoImageLayer</li>
+          <li xml:lang="uk">Додано показ геокодованих світлин з Wikimedia Commons</li>
+          <li xml:lang="zh_CN">显示维基共享资讯的地理定位照片为地理影像图层</li>
+          <li xml:lang="zh_TW">顯示維基共享資訊的地理定位照片為地理影像圖層</li>
+        </ul>
+      </description>
+    </release>
+    <release version="17915" date="2021-05-28" />
+    <release version="17833" date="2021-04-27">
+      <description>
+        <ul>
+          <li>Re-organize the upload dialog</li>
+          <li xml:lang="de">Upload-Dialog neu organisiert</li>
+          <li xml:lang="el">Αναδιοργάνωση του παραθύρου αποστολής</li>
+          <li xml:lang="eo">Re-organizi la alŝuta dialogon</li>
+          <li xml:lang="es">Reorganización del diálogo de subidas</li>
+          <li xml:lang="et">Ümber tehtud üleslaadimise dialoogiaken</li>
+          <li xml:lang="fr">Réorganisation de la fenêtre d'envoi</li>
+          <li xml:lang="hu">Feltöltés ablak átrendezése</li>
+          <li xml:lang="it">Riorganizzazione della finestra di caricamento</li>
+          <li xml:lang="ko">업로드 창 개편</li>
+          <li xml:lang="lt">Reorganizuotas išsiuntimo dialogo langas</li>
+          <li xml:lang="nb">Reorganisering av opplastingsdialogen</li>
+          <li xml:lang="nl">Dialoogvenster Uploaden opnieuw georganiseerd</li>
+          <li xml:lang="pl">Przeorganizowano okno wysyłania zmian</li>
+          <li xml:lang="ru">Реорганизовано диалоговое окно отправки данных на сервер</li>
+          <li xml:lang="sk">Preusporiadané okno odosielania údajov.</li>
+          <li xml:lang="sr@latin">Reorganizovan je prozor za otpremanje podataka na OSM</li>
+          <li xml:lang="uk">Перероблено вигляд діалогу надсилання даних на сервер</li>
+          <li xml:lang="zh_CN">重新整理上传对话框</li>
+          <li xml:lang="zh_TW">重新整理上傳對話框</li>
+          <li>Filter notes in notes dialog</li>
+          <li xml:lang="de">Filtermöglichkeit für Kartenhinweise</li>
+          <li xml:lang="el">Φιλτράρισμα σημειώσεων στο παράθυρο σημειώσεων</li>
+          <li xml:lang="eo">Filtri notojn en la noto-dialogo</li>
+          <li xml:lang="es">Filtro de notas en el diálogo de notas</li>
+          <li xml:lang="et">Märkuste filtreerimine märkuste dialoogiaknas</li>
+          <li xml:lang="fr">Filtre des notes dans la fenêtre des notes</li>
+          <li xml:lang="hu">Jegyzetek szűrése a jegyzetek dobozban</li>
+          <li xml:lang="it">Filtra le note nella finestra delle note</li>
+          <li xml:lang="ko">참고 창에서 참고를 필터링하는 기능 추가</li>
+          <li xml:lang="lt">Pastabų filtras pastabų dialogo lange</li>
+          <li xml:lang="nb">Filtrer notater i notatdialogen</li>
+          <li xml:lang="nl">Opmerkingen filteren in dialoogvenster Opmerkingen</li>
+          <li xml:lang="pl">Dodano funkcję filtrowania uwag w oknie Uwagi</li>
+          <li xml:lang="ru">Фильтрация заметок в диалоговом окне заметок</li>
+          <li xml:lang="sk">Filtrovanie poznámok v okne poznámok</li>
+          <li xml:lang="sr@latin">Dodata je opcija filtriranja napomena u prozoru</li>
+          <li xml:lang="uk">Фільтрування нотаток в панелі Нотатки</li>
+          <li xml:lang="zh_CN">在筛选对话框能够筛选注解</li>
+          <li xml:lang="zh_TW">在篩選對話框能夠篩選註解</li>
+          <li>Add colorfulness/contrast/gamma sliders to image viewer</li>
+          <li xml:lang="de">Farbigkeit/Kontrast/Gamma-Schieberegler für Bildbetrachter hinzugefügt</li>
+          <li xml:lang="el">Προσθήκη ρυθμιστικών για ένταση χρωμάτων, αντίθεση και γάμμα στον προβολέα εικόνων</li>
+          <li xml:lang="eo">Aldoni koloroplenec/kontrast/gamma-regilojn al la bildrigardilo</li>
+          <li xml:lang="es">Añadido controles deslizantes de color/contraste/gamma al visor de imágenes</li>
+          <li xml:lang="et">Pildivaaturile lisatud värvilisuse/kontrastsuse/gamma liugurid</li>
+          <li xml:lang="fr">Ajout de curseurs de coloration/contraste/gamma dans la visionneuse d'images</li>
+          <li xml:lang="hu">A képnéző színesség/kontraszt/gamma csúszkákat kapott</li>
+          <li xml:lang="it">Aggiunti i cursori del colore/contrasto/gamma al visualizzatore delle immagini</li>
+          <li xml:lang="ko">이미지 뷰어에 채도/대비/감마 값을 조절하는 슬라이더 추가</li>
+          <li xml:lang="lt">Vaizdų žiūryklėje pridėti spalvingumo/ryškumo/gamos šliaužikliai</li>
+          <li xml:lang="nb">Legg til fargefullhet/kontrast/gamma-glidebrytere i bildetviseren</li>
+          <li xml:lang="nl">Schuifbalken kleurdiepte/contrast/gamma toegevoegd aan viewer voor afbeeldingen</li>
+          <li xml:lang="pl">Dodano suwaki do regulacji nasycenia/kontrastu/gammy w oknie przeglądania obrazów</li>
+          <li xml:lang="ru">Добавлены ползунки регулировки цветности, контрастности и гаммы в просмотрщик изображений</li>
+          <li xml:lang="sk">Pridané posuvné ovládače pre farebnosť/kontrast/jas do prehliadača obrázkov</li>
+          <li xml:lang="sr@latin">Dodati su klizači jačine boje/kontrasta/game u pregledaču slika</li>
+          <li xml:lang="uk">Додано бінгунки для підлаштування барвистістості/контрастністі у вікні перегляду зображень</li>
+          <li xml:lang="zh_CN">在影像检视器新增彩度/对比/gamma 滑标</li>
+          <li xml:lang="zh_TW">在影像檢視器新增彩度/對比/gamma 滑標</li>
+        </ul>
+      </description>
+    </release>
+    <release version="17702" date="2021-04-01">
+      <description>
+        <ul>
+          <li>Reduce heap allocations while rendering</li>
+          <li xml:lang="de">Performanz: Speicherverbrauch beim Rendern reduziert</li>
+          <li xml:lang="el">Μείωση της χρήσης μνήμης κατά την εμφάνιση</li>
+          <li xml:lang="eo">Redukti havaĵajn asignojn dum bildigo</li>
+          <li xml:lang="es">Reducir las asignaciones de la pila mientras se renderiza</li>
+          <li xml:lang="fr">Réduction des allocations des tas de mémoire lors du rendu</li>
+          <li xml:lang="hu">Teljesítmény javítás: renderelés heap lefoglalásának csökkentése</li>
+          <li xml:lang="it">Riduzione dell'allocazione di memoria heap durante il rendering</li>
+          <li xml:lang="ko">렌더링 중 힙 영역의 메모리 할당량을 줄임</li>
+          <li xml:lang="lt">Sumažinti atminties paskyrimai atvaizduojant</li>
+          <li xml:lang="nb">Reduser heap-allokeringer under rendering</li>
+          <li xml:lang="nl">Heap-locaties verminderen tijdens rendereng</li>
+          <li xml:lang="pl">Zmniejszono liczbę alokacji na stercie podczas renderowania</li>
+          <li xml:lang="ru">Уменьшение выделений памяти "куче" при отрисовке данных</li>
+          <li xml:lang="sk">Znížený počet alokácií pamäte pri vykresľovaní</li>
+          <li xml:lang="sr@latin">Smanjena količina dodeljene memorije prilikom rendera (prikazivanja)</li>
+          <li xml:lang="uk">Зменшено використання пам'яті для показу даних.</li>
+          <li xml:lang="zh_CN">渲染时减少堆垒分配</li>
+          <li xml:lang="zh_TW">渲染時減少堆壘分配</li>
+          <li>Ask Oracle Java WebStart users to switch to OpenWebStart</li>
+          <li xml:lang="de">Benutzer von Oracle Java WebStart werden aufgefordert, auf OpenWebStart zu wechseln</li>
+          <li xml:lang="el">Ζητήστε από τους χρήστες του Oracle Java WebStart να μεταβούν στο OpenWebStart</li>
+          <li xml:lang="eo">Peti uzantojn de Oracle Java WebStart ŝanĝi al OpenWebStart</li>
+          <li xml:lang="es">Pedir a los usuarios de Oracle Java WebStart que se pasen a OpenWebStart</li>
+          <li xml:lang="fr">Demande aux utilisateurs d'Oracle Java WebStart de changer pour OpenWebStart</li>
+          <li xml:lang="hu">Oracle Java WebStart használók megkérése, hogy váltsanak OpenWebStart-ra</li>
+          <li xml:lang="it">Domanda agli utenti di Oracle Java Webstart di passare a OpenWebStart</li>
+          <li xml:lang="ko">오라클 자바 웹스타트를 사용하는 사용자에게 OpenWebStart를 대신 사용할 것인지 물어봄</li>
+          <li xml:lang="lt">Prašymas Oracle Java WebStart naudotojų naudoti OpenWebStart</li>
+          <li xml:lang="nb">Be Oracle Java WebStart-brukere om å bytte til OpenWebStart</li>
+          <li xml:lang="nl">Gebruikers van Oracle Java WebStart vragen over te schakelen naar OpenWebStart</li>
+          <li xml:lang="pl">Dodano zalecenie dla użytkowników Oracle Java WebStart o przejściu na OpenWebStart</li>
+          <li xml:lang="ru">Предложение пользователям Oracle Java WebStart перейти на OpenWebStart</li>
+          <li xml:lang="sk">Používatelia Oracle Java WebStart sú vyzvaní na prechod na OpenWebStart</li>
+          <li xml:lang="sr@latin">Korisnici Oracle Java WebStart biće upitani da pređu na OpenWebStart</li>
+          <li xml:lang="uk">Користувачі Oracle Java WebStart можуть перейти на OpenWebStart.</li>
+          <li xml:lang="zh_CN">询问甲骨文 Jave WebStart 使用者切换至 OpenWebStart</li>
+          <li xml:lang="zh_TW">詢問甲骨文 Jave WebStart 使用者切換至 OpenWebStart</li>
+          <li>Tagging presets: validate user input. Disabled by default, can be activated in .</li>
+          <li xml:lang="de">Objektvorlagen: Benutzereingaben werden geprüft. Die Funktion ist standardmäßig deaktiviert und kann in den aktiviert werden.</li>
+          <li xml:lang="el">Προεπιλογές ετικετών: έλεγχος εγκυρότητας εισόδου χρήστη. Απενεργοποιημένο από προεπιλογή, μπορεί να ενεργοποιηθεί στις .</li>
+          <li xml:lang="eo">Etikedaj antaŭagordoj: validigi uzantan enigon. Malaktiva defaŭlte, povas esti aktivigita en .</li>
+          <li xml:lang="es">Etiquetas de predefinidos: validar la entrada del usuario. Desactivado por defecto, se puede activar en las .</li>
+          <li xml:lang="fr">Preréglages: Validation de l'entrée de l'utilisateur. Désactivé par défaut, peut être activé dans .</li>
+          <li xml:lang="hu">Címkesablonok: beírt értékek érvényesítése. Alapértelmezetten nincs engedélyezve, de aktiválható a címkesablon beállításokban</li>
+          <li xml:lang="it">Etichette preimpostate: validazione dei dati inseriti dall'utente. Disabilitata inizialmente, può essere attivata nelle .</li>
+          <li xml:lang="ko">프리셋을 이용한 태깅: 사용자의 입력을 검증하는 기능 추가. 기본적으로 비활성화되어 있으며, 메뉴에서 활성화할 수 있습니다.</li>
+          <li xml:lang="lt">Žymėjimo ruošiniai: naudotojo įvedimo validavimas. Standartiškai išjungta, gali būti įjungta .</li>
+          <li xml:lang="nb">Merkepreset: valider brukerinput. Deaktivert som standard, kan aktiveres i .</li>
+          <li xml:lang="nl">Voorkeuzen taggen: gebruikersinvoer valideren. Standaard uitgeschakel, kan worden geactivateerd in Voorkeuren voorkeuzen taggen.</li>
+          <li xml:lang="pl">Szablony tagów: dodano funkcję potwierdzenia wyboru użytkownika. Domyślnie jest wyłączona i można ją aktywować w menu .</li>
+          <li xml:lang="ru">Заготовки тегов: проверка данных при вводе пользователем. По умолчанию отключена, активировать можно в .</li>
+          <li xml:lang="sk">Predvoľby značenia: kontrola vstupu od používateľa. Predvolene vypnuté, môže byť zapnuté cez</li>
+          <li xml:lang="sr@latin">Predlošci atributa: kontrolisanje unosa korisnika. Podrazumevano je isključeno, može se aktivirati u .</li>
+          <li xml:lang="uk">Заготовки теґів: перевірка вводу користувачів. Перевікру можна увімкнути в налаштуваннях (див. ).</li>
+          <li xml:lang="zh_CN">标签预置：验证使用者输入，预设关闭，可以在启用。</li>
+          <li xml:lang="zh_TW">標籤預置：驗證使用者輸入，預設關閉，可以在啟用。</li>
+        </ul>
+      </description>
+    </release>
+    <release version="17580" date="2021-03-17">
+      <description>
+        <ul>
+          <li>Fix many memory leaks</li>
+          <li xml:lang="de">Performanz: Behebung einer großen Anzahl von Speicherlecks</li>
+          <li xml:lang="el">Διόρθωση πολλών διαρροών μνήμης</li>
+          <li xml:lang="eo">Ripari multajn memoraj likoj</li>
+          <li xml:lang="es">Corrección de muchas fugas de memoria</li>
+          <li xml:lang="fr">Correction de nombreuses fuites de mémoire</li>
+          <li xml:lang="hu">Memóriaszivárgások javítása</li>
+          <li xml:lang="it">Correzione di numerose falle di memoria</li>
+          <li xml:lang="ko">상당수의 메모리 누수 해결</li>
+          <li xml:lang="lt">Pataisyta daug atminties nutekėjimų</li>
+          <li xml:lang="nb">Fikse mange minnelekkasjer</li>
+          <li xml:lang="nl">Veel geheugenlekken gerepareerd</li>
+          <li xml:lang="pl">Naprawiono wiele wycieków pamięci</li>
+          <li xml:lang="ru">Исправлены утечки памяти</li>
+          <li xml:lang="sk">Opravené mnohé úniky pamäte</li>
+          <li xml:lang="sr@latin">Popravljeni mnogi problemi sa prekomernim zauzećem memorije</li>
+          <li xml:lang="uk">Усунуто витіки пам'яті.</li>
+          <li xml:lang="zh_CN">修正许多记忆体流失问题</li>
+          <li xml:lang="zh_TW">修正許多記憶體流失問題</li>
+          <li>Java 16 support</li>
+          <li xml:lang="de">Unterstützung für Java 16</li>
+          <li xml:lang="el">Υποστήριξη Java 16</li>
+          <li xml:lang="eo">Subteno por Java 16</li>
+          <li xml:lang="es">Compatibilidad con Java 16</li>
+          <li xml:lang="fr">Prise en charge de Java 16</li>
+          <li xml:lang="hu">Java 16 kompatibilitás</li>
+          <li xml:lang="it">Compatibilità con Java 16</li>
+          <li xml:lang="ko">Java 16 지원</li>
+          <li xml:lang="lt">Java 16 palaikymas</li>
+          <li xml:lang="nb">Støtte for Java 16</li>
+          <li xml:lang="nl">Ondersteuning voor Java 16</li>
+          <li xml:lang="pl">Dodano wsparcie dla Javy 16</li>
+          <li xml:lang="ru">Поддержка Java 16</li>
+          <li xml:lang="sk">Podpora Java 16</li>
+          <li xml:lang="sr@latin">Podrška za Java 16</li>
+          <li xml:lang="uk">Підтримується Java 16.</li>
+          <li xml:lang="zh_CN">支援 Java 16 版本</li>
+          <li xml:lang="zh_TW">支援 Java 16 版本</li>
+          <li>Fix constant reloading of imagery tiles</li>
+          <li xml:lang="de">Korrektur des ständigen Neuladens von Bildkacheln</li>
+          <li xml:lang="el">Διόρθωση της συνεχούς επαναφόρτωσης των πλακιδίων εικόνας</li>
+          <li xml:lang="eo">Ripari konstantan reŝarĝadon de bilderoj</li>
+          <li xml:lang="es">Corrección de la recarga constante de los mosaicos de imágenes</li>
+          <li xml:lang="fr">Correction du rechargement incessant des tuiles d'imagerie</li>
+          <li xml:lang="hu">Légifelvétel csempék állandó újratöltésének javítása</li>
+          <li xml:lang="it">Correzione del ricaricamento continuo dei tasselli delle immagini aeree</li>
+          <li xml:lang="ko">배경 이미지 타일을 계속해서 재로딩하는 문제 해결</li>
+          <li xml:lang="lt">Pataisytas nuolatinis vaizdų kaladėlių įkėlimas</li>
+          <li xml:lang="nb">Fikse konstant reloading av bilderuter</li>
+          <li xml:lang="nl">Constant herladen van afbeeldingstegels gerepareerd</li>
+          <li xml:lang="pl">Naprawiono ciągłe przeładowywanie kafelków podkładów</li>
+          <li xml:lang="ru">Исправлена постоянная перезагрузка тайлов подложек</li>
+          <li xml:lang="sk">Opravené opakované načítanie podkladových snímkov</li>
+          <li xml:lang="sr@latin">Ispravljeno je konstantno ponovno učitavanje sličica podloga</li>
+          <li xml:lang="uk">Усунуто постійне перезавантаження тайлів фонових шарів.</li>
+          <li xml:lang="zh_CN">修正一直持续重新载入影像图砖</li>
+          <li xml:lang="zh_TW">修正一直持續重新載入影像圖磚</li>
+          <li>macOS build process fixes and improvements. Will correctly detect when it needs to be updated.</li>
+          <li xml:lang="de">MacOS-Build-Prozess behoben und verbessert. Erkennt korrekt, wenn es aktualisiert werden muss.</li>
+          <li xml:lang="el">Διορθώσεις και βελτιώσεις στη διαδικασία δημιουργίας για macOS. Θα ανιχνεύει σωστά όταν χρειάζεται ενημέρωση.</li>
+          <li xml:lang="eo">Riparoj kaj plibonigoj por macOS-konstrua procezo. Ĝi ĝuste detektos kiam ĝi bezonas esti ĝisdatigita.</li>
+          <li xml:lang="es">Correcciones y mejoras en el proceso de construcción en macOS. Detectará correctamente cuando necesita ser actualizado.</li>
+          <li xml:lang="fr">Correction et amélioration du processus de compilation de macOS. Détection correcte de la nécessité d'une mise à jour.</li>
+          <li xml:lang="hu">macOS csomagkészítő rendszer javítások, fejlesztések. Helyesen fogja jelezni, ha frissíteni kell.</li>
+          <li xml:lang="it">Correzione e miglioramento del processo di build su macOS. Rileverà correttamente quando sarà necessario l’aggiornamento.</li>
+          <li xml:lang="ko">macOS 빌드 과정의 버그 해결 및 개선. 이제 업데이트 알림을 제대로 받아옵니다.</li>
+          <li xml:lang="lt">macOS sukūrimo proceso pataisymai ir pagerinimai. Teisingai aptiks, kada reikia atnaujinti.</li>
+          <li xml:lang="nb">Fikser og forbedringer for macOS-byggeprosessen. Vil korrekt oppdage når den trenger å oppdateres.</li>
+          <li xml:lang="nl">Reparaties en verbeteringen aan macOS bouwproces. Zal correct detecteren wanneer het moet worden bijgewerkt.</li>
+          <li xml:lang="pl">Dodano poprawki i ulepszono proces tworzenia buildów w wersji macOS. Program będzie od teraz poprawnie wykrywał potrzebę jego aktualizacji.</li>
+          <li xml:lang="ru">Исправления и улучшения сборочного процесса в macOS. Будет правильно определять необходимость обновления.</li>
+          <li xml:lang="sk">Opravy procesu zostavenia verzie pre macOS. Mal by korektne zistiť, kedy má byť aktualizovaný.</li>
+          <li xml:lang="sr@latin">Ispravke i poboljšanja u procesu izrade izdanja za macOS. Ispravno će prepoznati kada je potrebno izvršiti ažuriranje.</li>
+          <li xml:lang="uk">Деякі покращення процесу створення застосунку JOSM для macOS. Тепер правильно визначається потреба в оновлені JOSM.</li>
+          <li xml:lang="zh_CN">修正以及改进 macOS 版本，会直接侦测是否需要更新。</li>
+          <li xml:lang="zh_TW">修正以及改進 macOS 版本，會直接偵測是否需要更新。</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+</component>

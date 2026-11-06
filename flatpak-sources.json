@@ -1,0 +1,296 @@
+[
+    {
+        "type": "file",
+        "url": "https://repo1.maven.org/maven2/ch/poole/OpeningHoursParser/0.29.0/OpeningHoursParser-0.29.0.pom",
+        "sha256": "19c2a417d28bc50f53bbe43db806e72377ee35f1e63ed417ed4bc81c7528ecdd",
+        "dest": "m2/ch/poole/OpeningHoursParser/0.29.0"
+    },
+    {
+        "type": "file",
+        "url": "https://repo1.maven.org/maven2/ch/poole/OpeningHoursParser/0.29.0/OpeningHoursParser-0.29.0.jar",
+        "sha256": "5ed560bc4dbbeb24924e729696513dceccbe9176d927d5ca2a0138f00e9e475a",
+        "dest": "m2/ch/poole/OpeningHoursParser/0.29.0"
+    },
+    {
+        "type": "file",
+        "url": "https://repo1.maven.org/maven2/com/adobe/xmp/xmpcore/6.1.11/xmpcore-6.1.11.pom",
+        "sha256": "719118182102c2533e92a2f67c03510264e6160571a738ac863e75712417323d",
+        "dest": "m2/com/adobe/xmp/xmpcore/6.1.11"
+    },
+    {
+        "type": "file",
+        "url": "https://repo1.maven.org/maven2/com/adobe/xmp/xmpcore/6.1.11/xmpcore-6.1.11.jar",
+        "sha256": "8f7033c579b99fa0d9d6ddcb9448875b5e4b577c350002278ce46997d678b737",
+        "dest": "m2/com/adobe/xmp/xmpcore/6.1.11"
+    },
+    {
+        "type": "file",
+        "url": "https://repo1.maven.org/maven2/com/drewnoakes/metadata-extractor/2.19.0/metadata-extractor-2.19.0.pom",
+        "sha256": "7ea5c3c4fb65d84441bdeda832c0e9ae04e8a33bab11caf827ab4e597b63b2ed",
+        "dest": "m2/com/drewnoakes/metadata-extractor/2.19.0"
+    },
+    {
+        "type": "file",
+        "url": "https://repo1.maven.org/maven2/com/drewnoakes/metadata-extractor/2.19.0/metadata-extractor-2.19.0.jar",
+        "sha256": "e51bb454ed08ea2bfcc3ad147d088ad1aa73a999e0072563f8ae50021a2fcadb",
+        "dest": "m2/com/drewnoakes/metadata-extractor/2.19.0"
+    },
+    {
+        "type": "file",
+        "url": "https://repo1.maven.org/maven2/com/github/weisj/jsvg/2.1.0/jsvg-2.1.0.pom",
+        "sha256": "363bd8bb1dfc9e28713bfaa88cab3625307668a09e06b106f15f72c0a2cf9fc4",
+        "dest": "m2/com/github/weisj/jsvg/2.1.0"
+    },
+    {
+        "type": "file",
+        "url": "https://repo1.maven.org/maven2/com/github/weisj/jsvg/2.1.0/jsvg-2.1.0.jar",
+        "sha256": "a538142d27c57c55066da02a535cc8eee3afd0d37b3daff8eba6344bd0ffc1b6",
+        "dest": "m2/com/github/weisj/jsvg/2.1.0"
+    },
+    {
+        "type": "file",
+        "url": "https://repo1.maven.org/maven2/commons-codec/commons-codec/1.19.0/commons-codec-1.19.0.pom",
+        "sha256": "e0f3269fa23de0c83130c5659f5f9514cc5422c0bcdf45f2eae004a78b9fca34",
+        "dest": "m2/commons-codec/commons-codec/1.19.0"
+    },
+    {
+        "type": "file",
+        "url": "https://repo1.maven.org/maven2/commons-codec/commons-codec/1.19.0/commons-codec-1.19.0.jar",
+        "sha256": "5c3881e4f556855e9c532927ee0c9dfde94cc66760d5805c031a59887070af5f",
+        "dest": "m2/commons-codec/commons-codec/1.19.0"
+    },
+    {
+        "type": "file",
+        "url": "https://repo1.maven.org/maven2/commons-io/commons-io/2.20.0/commons-io-2.20.0.pom",
+        "sha256": "bdbdf81072c190ee9a8b181a5c58f5bd917a750fb13a256debbf53f5dbd33a2a",
+        "dest": "m2/commons-io/commons-io/2.20.0"
+    },
+    {
+        "type": "file",
+        "url": "https://repo1.maven.org/maven2/commons-io/commons-io/2.20.0/commons-io-2.20.0.jar",
+        "sha256": "df90bba0fe3cb586b7f164e78fe8f8f4da3f2dd5c27fa645f888100ccc25dd72",
+        "dest": "m2/commons-io/commons-io/2.20.0"
+    },
+    {
+        "type": "file",
+        "url": "https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/3.0.0/jakarta.annotation-api-3.0.0.pom",
+        "sha256": "9fc66a87375df8443aba6bdcc1d4ff07f126542583785a482a9262a19bfe8eae",
+        "dest": "m2/jakarta/annotation/jakarta.annotation-api/3.0.0"
+    },
+    {
+        "type": "file",
+        "url": "https://repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/3.0.0/jakarta.annotation-api-3.0.0.jar",
+        "sha256": "b01f55552284cfb149411e64eabca75e942d26d2e1786b32914250e4330afaa2",
+        "dest": "m2/jakarta/annotation/jakarta.annotation-api/3.0.0"
+    },
+    {
+        "type": "file",
+        "url": "https://repo1.maven.org/maven2/jakarta/json/jakarta.json-api/2.1.3/jakarta.json-api-2.1.3.pom",
+        "sha256": "416a73971385a0be43f9da8a477aa64f4814ac52187d88f3e24f215b7f89dfde",
+        "dest": "m2/jakarta/json/jakarta.json-api/2.1.3"
+    },
+    {
+        "type": "file",
+        "url": "https://repo1.maven.org/maven2/jakarta/json/jakarta.json-api/2.1.3/jakarta.json-api-2.1.3.jar",
+        "sha256": "bc934142805ea1d794f1440563965a3861a2a9fb7414ecd3fe44f26500734414",
+        "dest": "m2/jakarta/json/jakarta.json-api/2.1.3"
+    },
+    {
+        "type": "file",
+        "url": "https://josm.openstreetmap.de/repository/public/junit/junit/3.8.1/junit-3.8.1.pom",
+        "sha256": "cd98c63c09205d107b08ed777514cb0be9ddefb89afee79f4f79a925bb149dab",
+        "dest": "m2/junit/junit/3.8.1"
+    },
+    {
+        "type": "file",
+        "url": "https://repo1.maven.org/maven2/junit/junit/3.8.1/junit-3.8.1.jar",
+        "sha256": "b58e459509e190bed737f3592bc1950485322846cf10e78ded1d065153012d70",
+        "dest": "m2/junit/junit/3.8.1"
+    },
+    {
+        "type": "file",
+        "url": "https://repo1.maven.org/maven2/net/java/dev/javacc/javacc/7.0.13/javacc-7.0.13.pom",
+        "sha256": "48163e48e0dcafc82a100b3723832bc5a2f7904f6b8236a59675ae0146ca92c4",
+        "dest": "m2/net/java/dev/javacc/javacc/7.0.13"
+    },
+    {
+        "type": "file",
+        "url": "https://repo1.maven.org/maven2/net/java/dev/javacc/javacc/7.0.13/javacc-7.0.13.jar",
+        "sha256": "a4ea46021ec567d89ca305763eedf738ba8a63601445e1aad08a329a6554502a",
+        "dest": "m2/net/java/dev/javacc/javacc/7.0.13"
+    },
+    {
+        "type": "file",
+        "url": "https://repo1.maven.org/maven2/org/apache/apache/29/apache-29.pom",
+        "sha256": "3e49037174820bbd0df63420a977255886398954c2a06291fa61f727ac35b377",
+        "dest": "m2/org/apache/apache/29"
+    },
+    {
+        "type": "file",
+        "url": "https://repo1.maven.org/maven2/org/apache/apache/35/apache-35.pom",
+        "sha256": "ea297dcd114136e8b8e8b630230d52a76c2fc69f6c5db25d672b1857000728b8",
+        "dest": "m2/org/apache/apache/35"
+    },
+    {
+        "type": "file",
+        "url": "https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.28.0/commons-compress-1.28.0.pom",
+        "sha256": "033f4c78d632da88d0eb8ead974fc14a264392cebf12ab6c68d6cea7adf0c64a",
+        "dest": "m2/org/apache/commons/commons-compress/1.28.0"
+    },
+    {
+        "type": "file",
+        "url": "https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.28.0/commons-compress-1.28.0.jar",
+        "sha256": "e1522945218456f3649a39bc4afd70ce4bd466221519dba7d378f2141a4642ca",
+        "dest": "m2/org/apache/commons/commons-compress/1.28.0"
+    },
+    {
+        "type": "file",
+        "url": "https://repo1.maven.org/maven2/org/apache/commons/commons-jcs3/3.2.1/commons-jcs3-3.2.1.pom",
+        "sha256": "0d6869f4c3e94d41b121defae937d440a05a65c7e47c30d724467decf21a9cdf",
+        "dest": "m2/org/apache/commons/commons-jcs3/3.2.1"
+    },
+    {
+        "type": "file",
+        "url": "https://repo1.maven.org/maven2/org/apache/commons/commons-jcs3-core/3.2.1/commons-jcs3-core-3.2.1.pom",
+        "sha256": "98f457cf68dd18065841e9f25a533e6d081836b72266db216a607eab80bbf102",
+        "dest": "m2/org/apache/commons/commons-jcs3-core/3.2.1"
+    },
+    {
+        "type": "file",
+        "url": "https://repo1.maven.org/maven2/org/apache/commons/commons-jcs3-core/3.2.1/commons-jcs3-core-3.2.1.jar",
+        "sha256": "12c6fe08223820089f60969b6088e6ac5d358aa872de78357585cdacb6c61049",
+        "dest": "m2/org/apache/commons/commons-jcs3-core/3.2.1"
+    },
+    {
+        "type": "file",
+        "url": "https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.18.0/commons-lang3-3.18.0.pom",
+        "sha256": "aa254b373b6f6d46bc9dca86331b072a8ab86eb25ea9921fd439618392e98a16",
+        "dest": "m2/org/apache/commons/commons-lang3/3.18.0"
+    },
+    {
+        "type": "file",
+        "url": "https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.18.0/commons-lang3-3.18.0.jar",
+        "sha256": "4eeeae8d20c078abb64b015ec158add383ac581571cddc45c68f0c9ae0230720",
+        "dest": "m2/org/apache/commons/commons-lang3/3.18.0"
+    },
+    {
+        "type": "file",
+        "url": "https://repo1.maven.org/maven2/org/apache/commons/commons-parent/58/commons-parent-58.pom",
+        "sha256": "2d4b12e18899063abd7c75278b5fa97a3729d80878ceecb6a40d946e9c0d5590",
+        "dest": "m2/org/apache/commons/commons-parent/58"
+    },
+    {
+        "type": "file",
+        "url": "https://repo1.maven.org/maven2/org/apache/commons/commons-parent/85/commons-parent-85.pom",
+        "sha256": "d189ff2c0027e96bb65d31e6f227ed2af966169b36af1e973dd5ba08926dc7b5",
+        "dest": "m2/org/apache/commons/commons-parent/85"
+    },
+    {
+        "type": "file",
+        "url": "https://repo1.maven.org/maven2/org/eclipse/ee4j/project/1.0.8/project-1.0.8.pom",
+        "sha256": "0d0c7b6e54a35eaf6c246e107eb1a8c7ac8ff0a0b84c489b07a357713adf674b",
+        "dest": "m2/org/eclipse/ee4j/project/1.0.8"
+    },
+    {
+        "type": "file",
+        "url": "https://repo1.maven.org/maven2/org/eclipse/ee4j/project/1.0.9/project-1.0.9.pom",
+        "sha256": "825379934a1cf29249f349f2d18adaf79a7b2cb2dbe231518974e1ee70941c17",
+        "dest": "m2/org/eclipse/ee4j/project/1.0.9"
+    },
+    {
+        "type": "file",
+        "url": "https://repo1.maven.org/maven2/org/eclipse/parsson/parsson/1.1.7/parsson-1.1.7.pom",
+        "sha256": "aeb404e7f0c14a76ecc8ba6e21ecd92f80f7c10402a446ff5d9c31d50f08e2d3",
+        "dest": "m2/org/eclipse/parsson/parsson/1.1.7"
+    },
+    {
+        "type": "file",
+        "url": "https://repo1.maven.org/maven2/org/eclipse/parsson/parsson/1.1.7/parsson-1.1.7.jar",
+        "sha256": "c21db018f8ac6cf79893f1af77f1cd337937bd12ae6fa3d4b10f5a00819ee56c",
+        "dest": "m2/org/eclipse/parsson/parsson/1.1.7"
+    },
+    {
+        "type": "file",
+        "url": "https://repo1.maven.org/maven2/org/eclipse/parsson/project/1.1.7/project-1.1.7.pom",
+        "sha256": "af5ef5a13ddd78dc0ba11521dc83a12a4572b513c82f101bb310f1186c5c714d",
+        "dest": "m2/org/eclipse/parsson/project/1.1.7"
+    },
+    {
+        "type": "file",
+        "url": "https://repo1.maven.org/maven2/org/jetbrains/annotations/24.1.0/annotations-24.1.0.pom",
+        "sha256": "2e37fd7020a4364b9e5d9f77c5b6742a3bea927dd560ca1e390dc815c9c50820",
+        "dest": "m2/org/jetbrains/annotations/24.1.0"
+    },
+    {
+        "type": "file",
+        "url": "https://repo1.maven.org/maven2/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar",
+        "sha256": "27a770dc7ce50500918bb8c3c0660c98290630ec796b5e3cf6b90f403b3033c6",
+        "dest": "m2/org/jetbrains/annotations/24.1.0"
+    },
+    {
+        "type": "file",
+        "url": "https://repo1.maven.org/maven2/org/junit/junit-bom/5.10.2/junit-bom-5.10.2.pom",
+        "sha256": "169dd904a4b0f6520cffe658cc62292bfe9f3c14a989fa92120724cde43a9968",
+        "dest": "m2/org/junit/junit-bom/5.10.2"
+    },
+    {
+        "type": "file",
+        "url": "https://repo1.maven.org/maven2/org/junit/junit-bom/5.13.1/junit-bom-5.13.1.pom",
+        "sha256": "fa68451ea830572ed43ffe51d75b6a05f7a5e665a602a51f49d6be02063a65f3",
+        "dest": "m2/org/junit/junit-bom/5.13.1"
+    },
+    {
+        "type": "file",
+        "url": "https://repo1.maven.org/maven2/org/junit/junit-bom/5.9.3/junit-bom-5.9.3.pom",
+        "sha256": "4d0329cd9e72f2420e5ca15724cbfe6ffa6e5fd2888361516271190fdc342ed7",
+        "dest": "m2/org/junit/junit-bom/5.9.3"
+    },
+    {
+        "type": "file",
+        "url": "https://josm.openstreetmap.de/repository/public/org/openstreetmap/jmapviewer/jmapviewer/2.25/jmapviewer-2.25.pom",
+        "sha256": "0f5f4143a47149b9e88a3cac7a2354efaca912a408aa269d60eb0706935fef15",
+        "dest": "m2/org/openstreetmap/jmapviewer/jmapviewer/2.25"
+    },
+    {
+        "type": "file",
+        "url": "https://josm.openstreetmap.de/repository/public/org/openstreetmap/jmapviewer/jmapviewer/2.25/jmapviewer-2.25.jar",
+        "sha256": "c1a933c7de786188ace592efd4998da55f7bf570c3f42215977581a94365620b",
+        "dest": "m2/org/openstreetmap/jmapviewer/jmapviewer/2.25"
+    },
+    {
+        "type": "file",
+        "url": "https://repo1.maven.org/maven2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom",
+        "sha256": "b51f8867c92b6a722499557fc3a1fdea77bdf9ef574722fe90ce436a29559454",
+        "dest": "m2/org/sonatype/oss/oss-parent/7"
+    },
+    {
+        "type": "file",
+        "url": "https://repo1.maven.org/maven2/org/tukaani/xz/1.11/xz-1.11.pom",
+        "sha256": "7bd2fe2f145c8479824757ab76130c0815a7b55850714ef0c28b39bd5d692ca4",
+        "dest": "m2/org/tukaani/xz/1.11"
+    },
+    {
+        "type": "file",
+        "url": "https://repo1.maven.org/maven2/org/tukaani/xz/1.11/xz-1.11.jar",
+        "sha256": "0a4077f6aeae2865532a564807af8d30c26acc6f63b7928d93bd7ab1f2190449",
+        "dest": "m2/org/tukaani/xz/1.11"
+    },
+    {
+        "type": "file",
+        "url": "https://repo1.maven.org/maven2/org/webjars/npm/tag2link/2026.6.26/tag2link-2026.6.26.pom",
+        "sha256": "a1aed804107125f65e0ac90292b44d48d8475c860abbde16e754926a24ac6ee7",
+        "dest": "m2/org/webjars/npm/tag2link/2026.6.26"
+    },
+    {
+        "type": "file",
+        "url": "https://repo1.maven.org/maven2/org/webjars/npm/tag2link/2026.6.26/tag2link-2026.6.26.jar",
+        "sha256": "be4ac4e1a0be7e8740de72b623668ec4a89340f29ea5bf1f72f37c22a55eb3a3",
+        "dest": "m2/org/webjars/npm/tag2link/2026.6.26"
+    },
+    {
+        "type": "file",
+        "url": "https://repo1.maven.org/maven2/org/apache/ivy/ivy/2.5.3/ivy-2.5.3.jar",
+        "sha256": "9502aa5aabf0b1484924a13ef4b5d24f121f7f91aab6768f11cc9d0906c0803b",
+        "dest": "tools/ivy"
+    }
+]
